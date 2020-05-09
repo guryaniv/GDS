@@ -1,0 +1,8 @@
+Submissions are evaluated on SMAPE between forecasts and actual values. We
+define SMAPE = 0 when the actual and predicted values are both 0. Submission
+File For each article and day combination (see key.csv), you must predict the
+web traffic. The file should contain a header and have the following format:
+Id,Visits bf4edcf969af,0 929ed2bf52b9,0 ff29d0f51d5c0 etc. Due to the large
+file size and number of rows, submissions may take a few minutes to score.
+Thank you for your patience.
+

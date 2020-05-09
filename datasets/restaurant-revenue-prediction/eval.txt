@@ -1,0 +1,8 @@
+Root Mean Squared Error (RMSE) Submissions are scored on the root mean squared
+error. RMSE is very common and is a suitable general-purpose error metric.
+Compared to the Mean Absolute Error, RMSE punishes large errors: RMSE= √ 1 n n
+∑ i=1 (yi− ˆ y i)2 , where y hat is the predicted value and y is the original
+value. Submission File For every restaurant in the dataset, submission files
+should contain two columns: Id and Prediction. The file should contain a
+header and have the following format: Id,Prediction 0,1.0 1,1.0 2,1.0 etc.
+

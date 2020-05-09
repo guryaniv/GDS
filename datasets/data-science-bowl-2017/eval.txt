@@ -1,0 +1,11 @@
+Submissions are scored on the log loss: LogLoss=− 1 n ∑ i=1 n [ y i log( y ^ i
+)+(1− y i )log(1− y ^ i )], where n is the number of patients in the test set
+y ^ i y is the predicted probability of the image belonging to a patient with
+cancer y i y is 1 if the diagnosis is cancer, 0 otherwise log() l is the
+natural (base e) logarithm Note: the actual submitted predicted probabilities
+are replaced with max(min(p,1− 10 −15 ), 10 −15 ) m . A smaller log loss is
+better. Submission File For each patient id in the test set, you must submit a
+probability. The file should have a header and be in the following format:
+id,cancer 01e349d34c02410e1da273add27be25c,0.5
+05a20caf6ab6df4643644c923f06a5eb,0.5 0d12f1c627df49eb223771c28548350e,0.5 ...
+

@@ -1,0 +1,15 @@
+The evaluation metric for this competition is Mean F1-Score. The F1 score
+measures accuracy using the statistics precision p and recall r. Precision is
+the ratio of true positives (tp) to all predicted positives (tp + fp). Recall
+is the ratio of true positives to all actual positives (tp + fn). The F1 score
+is given by: F1=2 p⋅r p+r where p= tp tp+fp , r= tp tp+fn F1=2p⋅rp+r where
+p=tptp+fp, r=tptp+fn The F1 metric weights recall and precision equally, and a
+good retrieval algorithm will maximize both precision and recall
+simultaneously. Thus, moderately good performance on both will be favored over
+extremely good performance on one and poor performance on the other.
+Submission File For every question in the dataset, submission files should
+contain two columns: id and tags. The predicted tags should be a space-
+delimited list. The file must have a header and should look like the
+following: id,tags 1,physics poetry 2,physics poetry chemistry 3,physics
+electrons etc.
+

@@ -1,0 +1,6 @@
+Submissions are evaluated on area under the ROC curve between the predicted
+probability and the observed target. Submission File For each Id in the test
+set, you must make a binary prediction of the target variable. The file should
+contain a header and have the following format: ID_code,target test_0,0
+test_1,1 test_2,0 etc.
+

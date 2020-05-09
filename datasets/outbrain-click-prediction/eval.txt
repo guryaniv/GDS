@@ -1,0 +1,12 @@
+Submissions are evaluated according to the Mean Average Precision @12
+(MAP@12): MAP@12= 1 |U| |U| ∑ u=1 min(12,n) ∑ k=1 P(k) where |U| is the number
+of display_ids, P(k) is the precision at cutoff k, n is the number of
+predicted ad_ids. Submission File For each display_id in the test set, you
+must predict a space-delimited list of ad_ids, ordered by decreasing
+likelihood of being clicked. The candidate ad_ids for each display_id are
+provided in clicks_test.csv. Note that each display_id can have a different
+number of associated ads. The file should contain a header and have the
+following format: display_id,ad_id 16874594,66758 150083 162754 170392 172888
+180797 16874595,8846 30609 143982 16874596,11430 57197 132820 153260 173005
+288385 289122 289915 etc.
+

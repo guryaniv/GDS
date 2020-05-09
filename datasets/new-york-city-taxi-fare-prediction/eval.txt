@@ -1,0 +1,19 @@
+The evaluation metric for this competition is the root mean-squared error or
+RMSE. RMSE measures the difference between the predictions of a model, and the
+corresponding ground truth. A large RMSE is equivalent to a large average
+error, so smaller values of RMSE are better. One nice property of RMSE is that
+the error is given in the units being measured, so you can tell very directly
+how incorrect the model might be on unseen data. RMSE is given by: RMSE= √ 1 n
+n ∑ i=1 ( ˆ y i−yi)2 where yi is the i observation and ˆ y i is the prediction
+for that observation. Example 1. Suppose we have one observation, with an
+actual value of 12.5 and a prediction of 12.5 (good job!). The RMSE will be:
+RMSEexample1= √ 1 1 (12.5−12.5)2 =0 Example 2. We'll add another data point.
+Your prediction for the second data point is 11.0 and the actual value is
+14.0. The RMSE will be: RMSEexample2= √ 1 2 ((12.5−12.5)2+(11.0−14.0)2) = √ 9
+2 ≈2.12 Kernel Submissions You can make submissions directly from Kaggle
+Kernels. By adding your teammates as collaborators on a kernel, you can share
+and edit code privately with them. Submission File For each key in the test
+set, you must predict a value for the fare_amount variable. The file should
+contain a header and have the following format: key,fare_amount 2015-01-27
+13:08:24.0000002,11.00
+

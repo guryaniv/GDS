@@ -1,0 +1,6 @@
+Submissions are evaluated on area under the ROC curve between the predicted
+probability and the observed target. Submission File For each click_id in the
+test set, you must predict a probability for the target is_attributed
+variable. The file should contain a header and have the following format:
+click_id,is_attributed 1,0.003 2,0.001 3,0.000 etc.
+

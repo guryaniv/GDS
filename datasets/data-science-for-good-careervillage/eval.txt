@@ -1,0 +1,16 @@
+Evaluation Your objective is to develop a method for recommending career
+advice questions to relevant volunteers that are most likely to answer them. A
+valid submission will include: Kernel Notebook: At least one kernel containing
+your method that recommends questions to volunteers. All kernels submitted
+must be made public on or before the submission deadline to be eligible. If
+submitting as a team, all team members must be listed as collaborators on all
+kernels submitted. Criteria for Measuring Solutions Performance: How well does
+the solution match questions to volunteers that would be most likely to
+answer? CareerVillage.org will not be able to live-test every submission, so a
+strong entry will clearly articulate why it is effective. Easy to implement:
+The CareerVillage.org team wants to put the winning submissions to work
+quickly. A good entry will be well documented and easy to test in production.
+Extensibility: In the future, CareerVillage.org aims to add more data
+features. The best submissions will make it easy to add new features and data
+not presently available.
+

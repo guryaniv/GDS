@@ -1,0 +1,34 @@
+In the United States, lung cancer strikes 225,000 people every year, and
+accounts for $12 billion in health care costs. Early detection is critical to
+give patients the best chance at recovery and survival. One year ago, the
+office of the U.S. Vice President spearheaded a bold new initiative, the
+Cancer Moonshot, to make a decade's worth of progress in cancer prevention,
+diagnosis, and treatment in just 5 years. In 2017, the Data Science Bowl will
+be a critical milestone in support of the Cancer Moonshot by convening the
+data science and medical communities to develop lung cancer detection
+algorithms. Using a data set of thousands of high-resolution lung scans
+provided by the National Cancer Institute, participants will develop
+algorithms that accurately determine when lesions in the lungs are cancerous.
+This will dramatically reduce the false positive rate that plagues the current
+detection technology, get patients earlier access to life-saving
+interventions, and give radiologists more time to spend with their patients.
+This year, the Data Science Bowl will award $1 million in prizes to those who
+observe the right patterns, ask the right questions, and in turn, create
+unprecedented impact around cancer screening care and prevention. The funds
+for the prize purse will be provided by the Laura and John Arnold Foundation.
+Visit DataScienceBowl.com to: • Sign up to receive news about the competition
+• Learn about the history of the Data Science Bowl and past competitions •
+Read our latest insights on emerging analytics techniques Acknowledgments The
+Data Science Bowl is presented by Competition Sponsors Laura and John Arnold
+Foundation Cancer Imaging Program of the National Cancer Institute American
+College of Radiology Amazon Web Services NVIDIA Data Support Providers
+National Lung Screening Trial The Cancer Imaging Archive Diagnostic Image
+Analysis Group, Radboud University Lahey Hospital & Medical Center Copenhagen
+University Hospital Supporting Organizations Bayes Impact Black Data Processng
+Associates Code the Change Data Community DC DataKind Galvanize Great Minds in
+STEM Hortonworks INFORMS Lesbians Who Tech NSBE Society of Asian Scientists &
+Engineers Society of Women Engineers University of Texas Austin, Business
+Analytics Program, McCombs School of Business US Dept. of Health and Human
+Services US Food and Drug Administration Women in Technology Women of
+Cyberjutsu
+

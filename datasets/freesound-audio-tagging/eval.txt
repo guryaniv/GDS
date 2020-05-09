@@ -1,0 +1,9 @@
+Submissions are evaluated according to the Mean Average Precision @ 3 (MAP@3):
+MAP@3= 1 U ∑ u=1 U ∑ k=1 min(n,3) P(k) where U is the number of scored audio
+files in the test data, P(k) is the precision at cutoff k, and n is the number
+predictions per audio file. You can learn more about this metric works from
+this kernel, and from this python code. Submission File For each fname (audio
+file) in the test set, you may predict up to 3 audio classification labels.
+The file should contain a header and have the following format: fname,label
+00063640.wav,Laughter Hi-Hat Flute 0013a1db.wav,Laughter Hi-Hat Flute ...
+

@@ -1,0 +1,10 @@
+Submissions are evaluated on prediction accuracy (the total percent of correct
+tokens). The predicted and actual string must match exactly in order to count
+as correct. In other words, we are measuring sequence accuracy, in that any
+error in the output for a given token in the input sequence means that that
+error is wrong. For example, if the input is "145" and the predicted output is
+"one forty five" but the correct output is "one hundred forty five", this is
+counted as a single error. Submission File For each token (id) in the test
+set, you must predict the normalized text. The file should contain a header
+and have the following format: id,after 0_0,"the" 0_1,"quick" 0_2,"fox" ...
+

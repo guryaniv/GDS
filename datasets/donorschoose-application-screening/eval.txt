@@ -1,0 +1,8 @@
+The goal of this competition is to predict whether an application to
+DonorsChoose is accepted. Submissions are evaluated on area under the ROC
+curve between the predicted probability and the observed target. Submission
+File For each id in the test set, you must predict a probability for the
+project_is_approved variable. The file should contain a header and have the
+following format (order does not matter): id,project_is_approved p233245,0.84
+p096795,0.84 p236235,0.84 etc.
+

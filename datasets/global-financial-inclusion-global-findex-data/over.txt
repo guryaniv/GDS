@@ -1,0 +1,17 @@
+Content The Global Financial Inclusion Database provides 800 country-level
+indicators of financial inclusion summarized for all adults and disaggregated
+by key demographic characteristics-gender, age, education, income, and rural
+residence. Covering more than 140 economies, the indicators of financial
+inclusion measure how people save, borrow, make payments and manage risk. The
+reference citation for the data is: Demirguc-Kunt, Asli, Leora Klapper,
+Dorothe Singer, and Peter Van Oudheusden. 2015. “The Global Findex Database
+2014: Measuring Financial Inclusion around the World.” Policy Research Working
+Paper 7255, World Bank, Washington, DC. Context This is a dataset hosted by
+the World Bank. The organization has an open data platform found here and they
+update their information according the amount of data that is brought in.
+Explore the World Bank using Kaggle and all of the data sources available
+through the World Bank organization page! Update Frequency: This dataset is
+updated daily. Acknowledgements This dataset is maintained using the World
+Bank's APIs and Kaggle's API. Cover photo by ZACHARY STAINES on Unsplash
+Unsplash Images are distributed under a unique Unsplash License.
+

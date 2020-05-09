@@ -1,0 +1,8 @@
+The World Development Indicators from the World Bank contain over a thousand
+annual indicators of economic development from hundreds of countries around
+the world. Here's a list of the available indicators along with a list of the
+available countries. For example, this data includes the life expectancy at
+birth from many countries around the world: The dataset hosted here is a
+slightly transformed verion of the raw files available here to facilitate
+analytics.
+

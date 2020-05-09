@@ -1,0 +1,6 @@
+Submissions are evaluated on the log loss between the predicted values and the
+ground truth. Submission File For each ID in the test set, you must predict
+the probability that the questions are duplicates (a number between 0 and 1).
+The file should contain a header and have the following format:
+test_id,is_duplicate 0,0.5 1,0.4 2,0.9 etc.
+

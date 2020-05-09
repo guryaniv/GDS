@@ -1,0 +1,16 @@
+Submissions will be evaluated based on their mean (F_{2}) score. The F score,
+commonly used in information retrieval, measures accuracy using the precision
+p and recall r. Precision is the ratio of true positives (tp) to all predicted
+positives (tp + fp). Recall is the ratio of true positives to all actual
+positives (tp + fn). The (F_{2}) score is given by (1+ β 2 ) pr β 2 p+r where
+p= tp tp+fp , r= tp tp+fn , β=2. Note that the (F_{2}) score weights recall
+higher than precision. The mean (F_{2}) score is formed by averaging the
+individual (F_{2}) scores for each row in the test set. Submission File For
+each image listed in the test set, predict a space-delimited list of tags
+which you believe are associated with the image. There are 17 possible tags:
+agriculture, artisinal_mine, bare_ground, blooming, blow_down, clear, cloudy,
+conventional_mine, cultivation, habitation, haze, partly_cloudy, primary,
+road, selective_logging, slash_burn, water. The file should contain a header
+and have the following format: image_name,tags test_0,agriculture road water
+test_1,primary clear test_2,haze primary etc.
+

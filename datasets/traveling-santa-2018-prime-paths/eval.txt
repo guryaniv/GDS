@@ -1,0 +1,8 @@
+Your submission is scored on the Euclidean distance of your submitted path,
+subject to the constraint that every 10th step is 10% more lengthy unless
+coming from a prime CityId. Submission file Your submission file contains the
+ordered Path that Santa should use to visit all the cities. Paths must start
+and end at the North Pole (CityId = 0) and you must visit every city exactly
+once. Submission files must have a header and should look like: Path 0 1 2 ...
+0
+

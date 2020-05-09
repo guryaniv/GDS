@@ -1,0 +1,17 @@
+Submissions are evaluated using the multi-class logarithmic loss. Each pronoun
+has been labeled with whether it refers to A, B, or NEITHER. For each pronoun,
+you must submit a set of predicted probabilities (one for each class). The
+formula is then, logloss=− 1 N ∑ i=1 N ∑ j=1 M y ij log( p ij ), where N is
+the number of samples in the test set, M is 3, log l is the natural logarithm,
+y ij y is 1 if observation i i belongs to class j j and 0 otherwise, and p ij
+p is the predicted probability that observation i i belongs to class j j . The
+submitted probabilities are not required to sum to one because they are
+rescaled prior to being scored (each row is divided by the row sum). In order
+to avoid the extremes of the log function, predicted probabilities are
+replaced with max(min(p,1− 10 −15 ), 10 −15 ) m . Submission File You must
+submit a csv file with the probabilities that a pronoun refers to A, B, or
+NEITHER. The order of the rows does not matter. The file must have a header
+and should look like the following: ID,A,B,NEITHER
+development-1,0.33333,0.33333,0.33333 development-2,0.33333,0.33333,0.33333
+development-3,0.33333,0.33333,0.33333 etc.
+

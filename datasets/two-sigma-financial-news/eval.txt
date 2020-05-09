@@ -1,0 +1,23 @@
+In this competition, you must predict a signed confidence value, y ^ ti
+∈[−1,1] , which is multiplied by the market-adjusted return of a given
+assetCode over a ten day window. If you expect a stock to have a large
+positive return--compared to the broad market--over the next ten days, you
+might assign it a large, positive confidenceValue (near 1.0). If you expect a
+stock to have a negative return, you might assign it a large, negative
+confidenceValue (near -1.0). If unsure, you might assign it a value near zero.
+For each day in the evaluation time period, we calculate: x t = ∑ i y ^ ti r
+ti u ti , where r ti is the 10-day market-adjusted leading return for day t
+for instrument i, and u ti is a 0/1 universe variable (see the data
+description for details) that controls whether a particular asset is included
+in scoring on a particular day. Your submission score is then calculated as
+the mean divided by the standard deviation of your daily x t values: score= x
+¯ t σ( x t ) . If the standard deviation of predictions is 0, the score is
+defined as 0. Submission File You must make submissions directly from Kaggle
+Kernels. By adding your teammates as collaborators on a kernel, you can share
+and edit code privately with them. The kernels environment automatically
+formats and creates your submission files in this competition when calling
+env.write_submission_file(). There is no need to manually create your
+submissions. Submissions will have the following format:
+time,assetCode,confidenceValue 2017-01-03,RPXC.O,0.1 2017-01-04,RPXC.O,0.02
+2017-01-05,RPXC.O,-0.3 etc.
+

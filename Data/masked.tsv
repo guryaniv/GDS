@@ -1,0 +1,135 @@
+Masked	Next masked
+loc 	iloc 
+loc 	iloc 
+loc 	iloc 
+loc 	iloc 
+loc 	iloc 
+loc 	iloc 
+loc 	iloc 
+loc 	iloc 
+loc 	iloc 
+loc 	loc 
+loc 	var11.append_0 var12.append_1 var11.append_2 var12.append_3 var11.append_4 var12.append_5 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var12=pandas.read_csv 	var12.head 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var10=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var12=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var10=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var12=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var12=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var10=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var12=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var12=pandas.read_csv 
+var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 	var12=pandas.read_csv 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot iloc matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title var5=var4.value_counts var4.hist 	var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot iloc matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title var5=var4.value_counts var4.hist 	var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot iloc matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title var5=var4.value_counts var4.hist 	var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot iloc matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title var5=var4.value_counts var4.hist 	var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot iloc matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title var5=var4.value_counts var4.hist 	var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot iloc matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title var5=var4.value_counts var4.hist 	var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var1=var1.dropna var7=var1.corr matplotlib.pyplot.figure var8=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var13=pandas.read_csv 	var13.head 
+var13=pandas.read_csv 	var13.head 
+var13=pandas.read_csv 	var13.head 
+var13=pandas.read_csv 	var13.head 
+var13=pandas.read_csv 	var13.head 
+var13=pandas.read_csv 	var13.head 
+iloc 	var0.info 
+iloc 	numpy.where 
+iloc 	iloc 
+iloc 	iloc 
+iloc 	iloc 
+var5.fit 	var6=var3.transform 
+var5.fit 	var8=var5.predict 
+var5.fit 	var10=var5.predict 
+var5.fit 	var8=var5.predict 
+var5.fit 	var10=var5.predict 
+import_numpy import_pandas import_os 	var0=pandas.read_csv var1=pandas.read_csv var2=pandas.read_csv 
+import_numpy import_pandas import_os 	import_os import_time import_numpy import_pandas import_math 
+import_numpy import_pandas import_os 	var0=pandas.read_csv var1=pandas.read_csv var2=pandas.read_csv 
+import_numpy import_pandas import_os 	var0=pandas.read_csv var1=pandas.read_csv var2=pandas.read_csv 
+import_numpy import_pandas import_os 	var0=pandas.read_csv var0.head 
+var14=pandas.read_csv 	var14.head 
+var14=pandas.read_csv 	var14.head 
+var14=pandas.read_csv 	var14.head 
+var14=pandas.read_csv 	var14.head 
+var14=pandas.read_csv 	var14.head 
+var0=pandas.read_csv var0.head 	var1=pandas.read_csv var1.head 
+var0=pandas.read_csv var0.head 	var0.info 
+var0=pandas.read_csv var0.head 	iloc iloc 
+var0=pandas.read_csv var0.head 	var1=pandas.read_csv var1.head 
+var2=pandas.read_csv var3=pandas.read_csv 	var10=numpy.array var10=numpy.array var10=numpy.array 
+var2=pandas.read_csv var3=pandas.read_csv 	var10=numpy.array var10=numpy.array var10=numpy.array 
+var2=pandas.read_csv var3=pandas.read_csv 	var10=numpy.array var10=numpy.array var10=numpy.array 
+var2=pandas.read_csv var3=pandas.read_csv 	var10=numpy.array var10=numpy.array var10=numpy.array 
+var9.head 	var9.plot 
+var9.head 	var10=pandas.concat 
+var9.head 	loc 
+var9.head 	loc 
+var0=pandas.read_csv var1=pandas.read_csv var2=pandas.read_csv 	var1.head 
+var0=pandas.read_csv var1=pandas.read_csv var2=pandas.read_csv 	var0.head 
+var0=pandas.read_csv var1=pandas.read_csv var2=pandas.read_csv 	var0.head 
+var0=pandas.read_csv var1=pandas.read_csv var2=pandas.read_csv 	var0.head 
+import_datetime import_gc import_numpy import_os import_pandas import_random import_lightgbm import_Levenshtein 	var2=pandas.read_csv var3=pandas.read_csv 
+import_datetime import_gc import_numpy import_os import_pandas import_random import_lightgbm import_Levenshtein 	var2=pandas.read_csv var3=pandas.read_csv 
+import_datetime import_gc import_numpy import_os import_pandas import_random import_lightgbm import_Levenshtein 	var2=pandas.read_csv var3=pandas.read_csv 
+import_datetime import_gc import_numpy import_os import_pandas import_random import_lightgbm import_Levenshtein 	var2=pandas.read_csv var3=pandas.read_csv 
+var10=pandas.read_csv 	var10.head 
+var10=pandas.read_csv 	var10.head 
+var10=pandas.read_csv 	var10.head 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title 	var1=var1.dropna var5=var1.corr matplotlib.pyplot.figure var6=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title 	var1=var1.dropna var5=var1.corr matplotlib.pyplot.figure var6=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+matplotlib.pyplot.figure matplotlib.pyplot.tight_layout matplotlib.pyplot.show matplotlib.pyplot.subplot matplotlib.pyplot.ylabel matplotlib.pyplot.xticks matplotlib.pyplot.title 	var1=var1.dropna var5=var1.corr matplotlib.pyplot.figure var6=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 
+var11=pandas.read_csv 	var11.head 
+var11=pandas.read_csv 	var11.head 
+var11=pandas.read_csv 	var11.head 
+iloc iloc 	var16.fit var17=var16.predict 
+iloc iloc 	import_nltk var6=var6.lower 
+iloc iloc 	var2.drop iloc 
+var1.head 	var0.head 
+var1.head 	var1.head 
+var1.head 	var11=var10.fit_transform var12=var10.transform var14=var13.fit_transform var15=var13.transform var17=var16.fit_transform var18=var16.transform var20=var19.fit_transform var21=var19.transform 
+var1=var1.dropna var5=var1.corr matplotlib.pyplot.figure var6=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var1=var1.dropna var5=var1.corr matplotlib.pyplot.figure var6=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var1=var1.dropna var5=var1.corr matplotlib.pyplot.figure var6=matplotlib.pyplot.matshow matplotlib.pyplot.xticks matplotlib.pyplot.yticks matplotlib.pyplot.colorbar matplotlib.pyplot.title matplotlib.pyplot.show 	var1=var1.select_dtypes var1=var1.dropna matplotlib.pyplot.suptitle matplotlib.pyplot.show 
+var24=var13.drop var27=var14.drop shape var30=numpy.mean var31=numpy.std var33=pandas.DataFrame var37=var22.copy var38=lightgbm.Dataset var39=lightgbm.Dataset var40=lightgbm.train var41=var40.predict var41=var40.predict var20.append_0 var12=pandas.concat var44=var40.feature_importance var45=var40.feature_name var16=numpy.array var43.append_1 	var12=var12.set_index var47.to_csv 
+var24=var13.drop var27=var14.drop shape var30=numpy.mean var31=numpy.std var33=pandas.DataFrame var37=var22.copy var38=lightgbm.Dataset var39=lightgbm.Dataset var40=lightgbm.train var41=var40.predict var41=var40.predict var20.append_0 var12=pandas.concat var44=var40.feature_importance var45=var40.feature_name var16=numpy.array var43.append_1 	var12=var12.set_index var47.to_csv 
+var24=var13.drop var27=var14.drop shape var30=numpy.mean var31=numpy.std var33=pandas.DataFrame var37=var22.copy var38=lightgbm.Dataset var39=lightgbm.Dataset var40=lightgbm.train var41=var40.predict var41=var40.predict var20.append_0 var12=pandas.concat var44=var40.feature_importance var45=var40.feature_name var16=numpy.array var43.append_1 	var12=var12.set_index var47.to_csv 
+var9.fit 	var11=var9.predict 
+var9.fit 	var11=var9.predict 
+var6=pandas.read_csv 	var7=var2.transform 
+var6=pandas.read_csv 	loc 
+var57=pandas.DataFrame 	var58=var57.applymap var58=pandas.concat var58=pandas.concat 
+var57=pandas.DataFrame 	var58=var57.applymap var58=pandas.concat var58=pandas.concat 
+var52=pandas.DataFrame 	var52=pandas.DataFrame 
+var52=pandas.DataFrame 	var57=pandas.DataFrame 
+var4.append_0 var5.append_1 var4.append_2 var5.append_3 var4.append_4 var5.append_5 	var8=pandas.DataFrame var8=pandas.merge var9.append_0 
+var4.append_0 var5.append_1 var4.append_2 var5.append_3 var4.append_4 var5.append_5 	var8=pandas.DataFrame var8=pandas.merge var9.append_0 
+matplotlib.pyplot.hist matplotlib.pyplot.hist matplotlib.pyplot.grid matplotlib.pyplot.legend 	matplotlib.pyplot.figure matplotlib.pyplot.imshow matplotlib.pyplot.colorbar matplotlib.pyplot.ylabel matplotlib.pyplot.xlabel 
+matplotlib.pyplot.hist matplotlib.pyplot.hist matplotlib.pyplot.grid matplotlib.pyplot.legend 	var29=pandas.read_csv var29.head 
+matplotlib.pyplot.figure seaborn.violinplot matplotlib.pyplot.xlabel matplotlib.pyplot.ylabel matplotlib.pyplot.title 	matplotlib.pyplot.figure seaborn.violinplot matplotlib.pyplot.xlabel matplotlib.pyplot.ylabel matplotlib.pyplot.title 
+matplotlib.pyplot.figure seaborn.violinplot matplotlib.pyplot.xlabel matplotlib.pyplot.ylabel matplotlib.pyplot.title 	seaborn.violinplot seaborn.violinplot seaborn.violinplot seaborn.violinplot 
+var10=var5.predict 	var2.to_csv 
+var10=var5.predict 	var2.to_csv 
+var16=pandas.DataFrame 	var16=pandas.merge 
+var16=pandas.DataFrame 	var16=pandas.merge 
+var0.head 	matplotlib.pyplot.figure seaborn.violinplot matplotlib.pyplot.xlabel matplotlib.pyplot.ylabel matplotlib.pyplot.title 
+var0.head 	var3=var0.query 
+var12=var12.join 	var12.to_pickle 
+var12=var12.join 	var12.to_pickle 
+var11.append_0 var12.append_1 var11.append_2 var12.append_3 var11.append_4 var12.append_5 	var16=pandas.DataFrame 
+var11.append_0 var12.append_1 var11.append_2 var12.append_3 var11.append_4 var12.append_5 	var16=pandas.DataFrame 
+var11=var11.join 	var11.to_pickle 
+var11=var11.join 	var11.to_pickle 

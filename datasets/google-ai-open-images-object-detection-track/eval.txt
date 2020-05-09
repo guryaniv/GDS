@@ -1,0 +1,14 @@
+Submissions are evaluated by computing mean Average Precision (AP), modified
+to take into account the annotation process of Open Images dataset (mean is
+taken over per-class APs). The metric is described on the Open Images
+Challenge website. The final mAP is computed as the average AP over the 500
+classes. The participants will be ranked on this final metric. Kaggle's
+production code in C# can be viewed here. The metric is also implemented as a
+part of Tensorflow Object Detection API. See this Tutorial on running the
+evaluation in Python. Kernel Submissions You can make submissions directly
+from Kaggle Kernels. By adding your teammates as collaborators on a kernel,
+you can share and edit code privately with them. Submission File For each
+image in the test set, you must predict a list of boxes describing objects in
+the image. Each box is described as ImageID,PredictionString ImageID,{Label
+Confidence XMin YMin XMax YMax},{...}
+

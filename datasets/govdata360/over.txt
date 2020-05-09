@@ -1,0 +1,13 @@
+Content GovData360 is a compendium of the most important governance
+indicators, from 26 datasets with worldwide coverage and more than 10 years of
+info, designed to provide guidance on the design of reforms and the monitoring
+of impacts. We have an Unbalanced Panel Data by Dataset - Country for around
+3260 governance focused indicators. Context This is a dataset hosted by the
+World Bank. The organization has an open data platform found here and they
+update their information according the amount of data that is brought in.
+Explore the World Bank using Kaggle and all of the data sources available
+through the World Bank organization page! Update Frequency: This dataset is
+updated daily. Acknowledgements This dataset is maintained using the World
+Bank's APIs and Kaggle's API. Cover photo by John Jason on Unsplash Unsplash
+Images are distributed under a unique Unsplash License.
+

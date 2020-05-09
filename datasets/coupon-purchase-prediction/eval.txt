@@ -1,0 +1,13 @@
+Submissions are evaluated according to the Mean Average Precision @ 10
+(MAP@10): MAP@10= 1 |U| |U| ∑ u=1 1 min(m,10) min(n,10) ∑ k=1 P(k) where |U|
+is the number of users, P(k) is the precision at cutoff k, n is the number of
+predicted coupons, and m is the number of purchased coupons for the given
+user. If m = 0, the precision is defined to be 0. Submission File For every
+user, you must predict a space-delimited list of the coupons they purchased.
+The file should contain a header and have the following format (we have
+substituted the coupon hashes with dummy values to fit below, but in your
+prediction file you should use the real hash values):
+USER_ID_hash,PURCHASED_COUPONS 0004901ba699a49fd93a3c6bb1768b8f,hash4
+0006d6ac7c6ef3fc0ab0dc40deb3c960,hash1 hash2 00078d03b4dda619293c1793c251f783,
+etc...
+

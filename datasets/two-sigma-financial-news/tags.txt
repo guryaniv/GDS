@@ -1,0 +1,1 @@
+['finance', 'time series', 'money', 'news agencies', 'custom metric', 'extra small']

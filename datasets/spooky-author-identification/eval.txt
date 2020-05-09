@@ -1,0 +1,16 @@
+Submissions are evaluated using multi-class logarithmic loss. Each id has one
+true class. For each id, you must submit a predicted probability for each
+author. The formula is then: logloss=− 1 N ∑ i=1 N ∑ j=1 M y ij log( p ij ),
+where N is the number of observations in the test set, M is the number of
+class labels (3 classes), log l is the natural logarithm, y ij y is 1 if
+observation i i belongs to class j j and 0 otherwise, and p ij p is the
+predicted probability that observation i i belongs to class j j . The
+submitted probabilities for a given sentences are not required to sum to one
+because they are rescaled prior to being scored (each row is divided by the
+row sum). In order to avoid the extremes of the log function, predicted
+probabilities are replaced with max(min(p,1− 10 −15 ), 10 −15 ) m . Submission
+File You must submit a csv file with the id, and a probability for each of the
+three classes. The order of the rows does not matter. The file must have a
+header and should look like the following: id,EAP,HPL,MWS
+id07943,0.33,0.33,0.33 ...
+

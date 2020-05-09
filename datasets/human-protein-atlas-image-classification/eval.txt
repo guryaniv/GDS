@@ -1,0 +1,10 @@
+Submissions will be evaluated based on their macro F1 score. Submission File
+For each Id in the test set, you must predict a class for the Target variable
+as described in the data page. Note that multiple labels can be predicted for
+each sample. The file should contain a header and have the following format:
+Id,Predicted 00008af0-bad0-11e8-b2b8-ac1f6b6435d0,0 1
+0000a892-bacf-11e8-b2b8-ac1f6b6435d0,2 3
+0006faa6-bac7-11e8-b2b7-ac1f6b6435d0,0 0008baca-bad7-11e8-b2b9-ac1f6b6435d0,0
+000cce7e-bad4-11e8-b2b8-ac1f6b6435d0,0 00109f6a-bac8-11e8-b2b7-ac1f6b6435d0,1
+28 ...
+

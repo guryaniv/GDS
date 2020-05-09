@@ -1,0 +1,6 @@
+Submissions are evaluated on the log loss between the predicted values and the
+ground truth. Submission File For each id in the test set, you must predict
+the probability that the image contains an iceberg (a number between 0 and 1).
+The file should contain a header and have the following format: id,is_iceberg
+809385f7,0.5 7535f0cd,0.4 3aa99a38,0.9 etc.
+

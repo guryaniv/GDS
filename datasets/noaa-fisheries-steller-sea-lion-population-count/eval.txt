@@ -1,0 +1,7 @@
+The aim of the competition is to count each type of steller sea lion in each
+photo. See the Data tab for more details. Your submission file should have the
+following format:
+test_id,adult_males,subadult_males,adult_females,juveniles,pups 0,1,1,1,1,1
+1,1,1,1,1,1 2,1,1,1,1,1 etc Your submissions will be evaluated by their RMSE
+from the human-labelled ground truth, averaged over the columns.
+

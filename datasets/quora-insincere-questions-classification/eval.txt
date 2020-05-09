@@ -1,0 +1,11 @@
+Submissions are evaluated on F1 Score between the predicted and the observed
+targets. Submission File For each qid in the test set, you must predict
+whether the corresponding question_text is insincere (1) or not (0).
+Predictions should only be the integers 0 or 1. The file should contain a
+header and have the following format: qid,prediction 0000163e3ea7c7a74cd7,0
+00002bd4fb5d505b9161,0 00007756b4a147d2b0b3,0 ... Kernel Submissions For this
+competition, you will make submissions directly from Kaggle Kernels. By adding
+your teammates as collaborators on a kernel, you can share and edit code
+privately with them. For more details, please visit the Kernels-FAQ for this
+competition.
+

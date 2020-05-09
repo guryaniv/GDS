@@ -1,0 +1,8 @@
+Submissions are evaluated on Mean Absolute Error between your predicted
+winPlacePerc and the observed winPlacePerc. Submission File For each Id in the
+test set, you must predict their placement as a percentage (0 for last, 1 for
+first place) for the winPlacePerc variable. The file should contain a header
+and have the following format: Id,winPlacePerc 47734,0 47735,0.5 47736,0
+47737,1 etc. See sample_submission.csv on the data page for a full sample
+submission.
+

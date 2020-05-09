@@ -1,0 +1,15 @@
+Content The IDA Results Measurement System dataset measures progress on
+aggregate outcomes for IDA countries for selected indicators. It includes key
+country outcome indicators covering areas that are consistent with the
+Millennium Development Goals, are priorities in many national development
+plans and/or poverty reduction strategies, and reflect IDA's activities in IDA
+countries. The indicators capture both the economic growth and the human
+development priorities of ongoing IDA programs. Context This is a dataset
+hosted by the World Bank. The organization has an open data platform found
+here and they update their information according the amount of data that is
+brought in. Explore the World Bank using Kaggle and all of the data sources
+available through the World Bank organization page! Update Frequency: This
+dataset is updated daily. Acknowledgements This dataset is maintained using
+the World Bank's APIs and Kaggle's API. Cover photo by The Creative Exchange
+on Unsplash Unsplash Images are distributed under a unique Unsplash License.
+

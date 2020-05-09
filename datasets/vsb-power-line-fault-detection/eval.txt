@@ -1,0 +1,9 @@
+Submissions are evaluated on the Matthews correlation coefficient (MCC)
+between the predicted and the observed response. The MCC is given by: MCC=
+(TP∗TN)−(FP∗FN) √ (TP+FP)(TP+FN)(TN+FP)(TN+FN) , where TP is the number of
+true positives, TN the number of true negatives, FP the number of false
+positives, and FN the number of false negatives. Submission File For each
+signal in the test set, you must predict a binary prediction for the target
+variable. The file should contain a header and have the following format:
+signal_id,target 0,0 1,1 2,0 etc.
+

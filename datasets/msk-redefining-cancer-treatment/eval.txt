@@ -1,0 +1,9 @@
+Submissions are evaluated on Multi Class Log Loss between the predicted
+probability and the observed target. Submission File For each ID in the test
+set, you must predict a probability for each of the different classes a
+genetic mutation can be classified on. The file should contain a header and
+have the following format:
+ID,class1,class2,class3,class4,class5,class6,class7,class8,class9
+0,0.1,0.7,0.05,0.05,0.1,0,0,0,0 1,0.7,0.1,0.05,0.05,0.1,0,0,0,0
+2,0.05,0.05,0.1,0.7,0.1,0,0,0,0 3,0,0,0,0,0.05,0.05,0.1,0,7,0,1 etc.
+

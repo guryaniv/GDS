@@ -1,0 +1,8 @@
+Submissions will be evaluated based on their macro F1 score. Kernel
+Submissions As this is a Kernels-Only Competition, you must make submissions
+directly from Kaggle Kernels. By adding your teammates as collaborators on a
+kernel, you can share and edit code privately with them. Submission File For
+each Id in the test set, you must predict a class for the Target variable as
+described in the data page. The file should contain a header and have the
+following format: Id,Target ID_2f6873615,1
+

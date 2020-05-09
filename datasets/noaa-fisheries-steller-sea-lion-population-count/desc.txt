@@ -1,0 +1,21 @@
+Steller sea lions in the western Aleutian Islands have declined 94 percent in
+the last 30 years. The endangered western population, found in the North
+Pacific, are the focus of conservation efforts which require annual population
+counts. Specially trained scientists at NOAA Fisheries Alaska Fisheries
+Science Center conduct these surveys using airplanes and unoccupied aircraft
+systems to collect aerial images. Having accurate population estimates enables
+us to better understand factors that may be contributing to lack of recovery
+of Stellers in this area. Currently, it takes biologists up to four months to
+count sea lions from the thousands of images NOAA Fisheries collects each
+year. Once individual counts are conducted, the tallies must be reconciled to
+confirm their reliability. The results of these counts are time-sensitive. In
+this competition, Kagglers are invited to develop algorithms which accurately
+count the number of sea lions in aerial photographs. Automating the annual
+population count will free up critical resources allowing NOAA Fisheries to
+focus on ensuring we hear the sea lion’s roar for many years to come. Plus,
+advancements in computer vision applied to aerial population counts may also
+greatly benefit other endangered species. Resources Learn more about research
+being done to better understand what's going on with the endangered Steller
+sea lion populations by joining scientists on a research vessel to the western
+Aleutian Islands in the video below.
+

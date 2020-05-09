@@ -1,0 +1,15 @@
+Another year, another chance to predict the upsets, call the probabilities,
+and put your bracketology skills to the leaderboard test. In our fourth annual
+March Machine Learning Mania competition, Kagglers will once again join the
+millions of fans who attempt to predict the outcomes of this year's US men's
+college basketball tournament. But unlike most fans, you will pick the winners
+and losers using a combination of rich historical data and computing power,
+while the ground truth unfolds on national television. In the first stage of
+the competition, Kagglers will rely on results of past tournaments to build
+and test models. We encourage you to post any useful external data as a
+dataset. In the second stage, competitors will forecast outcomes of all
+possible match-ups in the 2017 tournament. You don't need to participate in
+the first stage to enter the second. The first stage exists to incentivize
+model building and provide a means to score predictions. The real competition
+is forecasting the 2017 results.
+

@@ -1,0 +1,20 @@
+Submissions are scored based on the quadratic weighted kappa, which measures
+the agreement between two ratings. This metric typically varies from 0 (random
+agreement) to 1 (complete agreement). In the event that there is less
+agreement between the raters than expected by chance, this metric may go below
+0. The response variable has 8 possible ratings. Each application is
+characterized by a tuple (ea,eb), which corresponds to its scores by Rater A
+(actual risk) and Rater B (predicted risk). The quadratic weighted kappa is
+calculated as follows. First, an N x N histogram matrix O is constructed, such
+that Oi,j corresponds to the number of applications that received a rating i
+by A and a rating j by B. An N-by-N matrix of weights, w, is calculated based
+on the difference between raters' scores: w i,j = (i−j) 2 (N−1) 2
+wi,j=(i−j)2(N−1)2 An N-by-N histogram matrix of expected ratings, E, is
+calculated, assuming that there is no correlation between rating scores. This
+is calculated as the outer product between each rater's histogram vector of
+ratings, normalized such that E and O have the same sum. From these three
+matrices, the quadratic weighted kappa is calculated as: κ=1− ∑ i,j w i,j O
+i,j ∑ i,j w i,j E i,j . Submission File For each Id in the test set, you must
+predict the Response variable. The file should contain a header and have the
+following format: Id,Response 1,4 3,8 4,3 etc.
+

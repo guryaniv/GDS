@@ -1,0 +1,22 @@
+The 11th ACM International Conference on Web Search and Data Mining (WSDM
+2018) is challenging you to build an algorithm that predicts whether a
+subscription user will churn using a donated dataset from KKBOX. WSDM
+(pronounced "wisdom") is one of the the premier conferences on web inspired
+research involving search and data mining. They're committed to publishing
+original, high quality papers and presentations, with an emphasis on practical
+but principled novel models. For a subscription business, accurately
+predicting churn is critical to long-term success. Even slight variations in
+churn can drastically affect profits. KKBOX is Asia’s leading music streaming
+service, holding the world’s most comprehensive Asia-Pop music library with
+over 30 million tracks. They offer a generous, unlimited version of their
+service to millions of people, supported by advertising and paid
+subscriptions. This delicate model is dependent on accurately predicting churn
+of their paid users. In this competition you’re tasked to build an algorithm
+that predicts whether a user will churn after their subscription expires.
+Currently, the company uses survival analysis techniques to determine the
+residual membership life time for each subscriber. By adopting different
+methods, KKBOX anticipates they’ll discover new insights to why users leave so
+they can be proactive in keeping users dancing. Winners will present their
+findings at the WSDM conference February 6-8, 2018 in Los Angeles, CA. For
+more information on the conference, click here.
+

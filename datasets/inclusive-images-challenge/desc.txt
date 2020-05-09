@@ -1,0 +1,24 @@
+Making products that work for people all over the globe is an important value
+at Google AI. In the field of classification, this means developing models
+that work well for regions all over the world. Today, the dataset a model is
+trained on greatly dictates the performance of that model. A system trained on
+a dataset that doesn’t represent a broad range of localities could perform
+worse on images drawn from geographic regions underrepresented in the training
+data. Google and the industry at large are working to create more diverse &
+representative datasets. But it is also important for the field to make
+progress in understanding how to build models when the data available may not
+cover all audiences a model is meant to reach. Google AI is challenging
+Kagglers to develop models that are robust to blind spots that might exist in
+a data set, and to create image recognition systems that can perform well on
+test images drawn from different geographic distributions than the ones they
+were trained on. By finding ways to teach image classifiers to generalize to
+new geographic and cultural contexts, we hope the community will make even
+more progress in inclusive machine learning that benefits everyone,
+everywhere. Note: This competition is run in two stages. Refer to the FAQ for
+an explanation of how this works & the Timeline for specific dates. This
+competition is a part of the NIPS 2018 competition track. Winners will be
+invited to attend and present their solutions at the workshop. Shankar et al.
+"No Classification without Representation: Assessing Geodiversity Issues in
+Open Data Sets for the Developing World" NIPS 2017 Workshop on Machine
+Learning for the Developing World
+

@@ -1,0 +1,24 @@
+Innovative materials design is needed to tackle some of the most important
+health, environmental, energy, social, and economic challenges of this
+century. In particular, improving the properties of materials that are
+intrinsically connected to the generation and utilization of energy is crucial
+if we are to mitigate environmental damage due to a growing global demand.
+Transparent conductors are an important class of compounds that are both
+electrically conductive and have a low absorption in the visible range, which
+are typically competing properties. A combination of both of these
+characteristics is key for the operation of a variety of technological devices
+such as photovoltaic cells, light-emitting diodes for flat-panel displays,
+transistors, sensors, touch screens, and lasers. However, only a small number
+of compounds are currently known to display both transparency and conductivity
+suitable enough to be used as transparent conducting materials. Aluminum (Al),
+gallium (Ga), indium (In) sesquioxides are some of the most promising
+transparent conductors because of a combination of both large bandgap
+energies, which leads to optical transparency over the visible range, and high
+conductivities. These materials are also chemically stable and relatively
+inexpensive to produce. Alloying of these binary compounds in ternary or
+quaternary mixtures could enable the design of a new material at a specific
+composition with improved properties over what is current possible. These
+alloys are described by the formula (A l x G a y I n z ) 2N O 3N ( ; where x,
+y, and z can vary but are limited by the constraint x+y+z = 1. The total
+number of atoms in the
+

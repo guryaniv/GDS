@@ -1,0 +1,7 @@
+Root Mean Squared Error (RMSE) Submissions are scored on the root mean squared
+error. RMSE is defined as: RMSE= √ 1 n n ∑ i=1 (yi− ˆ y i)2 , where ˆ y is the
+predicted loyalty score for each card_id, and y is the actual loyalty score
+assigned to a card_id. Submission File card_id, target C_ID_9e86007114,0
+C_ID_1c9f77086c,0.5 C_ID_07b20e9908,0 C_ID_63d6bac69a,0 C_ID_bbc26a86eb,0
+C_ID_f749aad790,0 C_ID_7b5c15ff41,-0.25 C_ID_ec6b0f2d30,0 C_ID_0a11e759c5,0
+

@@ -1,0 +1,17 @@
+Submissions are evaluated using the multi-class logarithmic loss. Each listing
+has one true class. For each listing, you must submit a set of predicted
+probabilities (one for every listing). The formula is then, logloss=− 1 N ∑
+i=1 N ∑ j=1 M y ij log( p ij ), where N is the number of listings in the test
+set, M is the number of class labels (3 classes), log is the natural
+logarithm, y ij is 1 if observation i belongs to class j and 0 otherwise, and
+p ij is the predicted probability that observation i belongs to class j . The
+submitted probabilities for a given listing are not required to sum to one
+because they are rescaled prior to being scored (each row is divided by the
+row sum). In order to avoid the extremes of the log function, predicted
+probabilities are replaced with max(min(p,1− 10 −15 ), 10 −15 ) . Submission
+File You must submit a csv file with the listing_id, and a probability for
+each class. The order of the rows does not matter. The file must have a header
+and should look like the following: listing_id,high,medium,low
+7065104,0.07743170693194379,0.2300252644876046,0.6925430285804516 7089035,0.0,
+1.0, 0.0 ...
+

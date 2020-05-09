@@ -1,0 +1,1 @@
+['finance', 'medium', 'featured']

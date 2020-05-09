@@ -1,0 +1,16 @@
+‘Tis the night before Christmas year: two thousand seventeen. Santa’s grown
+grouchy, borderline mean. What used to be simple for Old St. Nick, is now too
+puzzling, it’s making him sick! See, Santa always knew, deep down in his gut,
+what toy each kid wanted–no ifs, ands, or buts. But fierce population growth,
+more twins, and toy innovation, has left too complex a problem, in dire need
+of optimization. “Don’t worry, Mr. Santa”, said an Elf named McMaggle, “I have
+a solution! Have you heard of Kaggle?” As she explained Kaggle in-depth,
+Santa’s doubt began turning, he became a believer in the magic of...machine
+learning. So, Santa’s team needs YOU more than ever this year, to solve this
+painful problem and save Christmas cheer. The Challenge In this playground
+competition, you’re challenged to build a toy matching algorithm that
+maximizes happiness by pairing kids with toys they want. In the dataset, each
+kid has 10 preferences for their gift (from 1000) and Santa has 1000 preferred
+kids for every gift available. What makes this extra difficult is that 0.4% of
+the kids are twins, and by their parents’ request, require the same gift.
+

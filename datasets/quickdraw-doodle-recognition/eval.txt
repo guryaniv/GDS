@@ -1,0 +1,18 @@
+Submissions are evaluated according to the Mean Average Precision @ 3 (MAP@3):
+MAP@3= 1 U U ∑ u=1 min(n,3) ∑ k=1 P(k) where U is the number of scored
+drawings in the test data, P(k) is the precision at cutoff k, and n is the
+number predictions per drawing. You can learn more about this metric works
+from this kernel, and from this python code. Kernel Submissions You can make
+submissions directly from Kaggle Kernels. By adding your teammates as
+collaborators on a kernel, you can share and edit code privately with them.
+Submission File For each key_id in the test set, you should predict up to 3
+word values. The file should contain a header and have the following format.
+IMPORTANT: Some "words" are actually more than one word! The training data
+aligns to the Quick Draw dataset that that was previously released, and uses
+spaces to delimit multi-word labels. The Kaggle metric for this competition
+requires labels with no spaces, so you will need to adjust your label
+predictions to replace spaces with underscores. For example, "roller coaster"
+should be predicted as "roller_coaster". key_id,word
+9000003627287624,The_Eiffel_Tower airplane donut
+9000010688666847,The_Eiffel_Tower airplane donut etc.
+

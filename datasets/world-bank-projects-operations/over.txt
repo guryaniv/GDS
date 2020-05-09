@@ -1,0 +1,17 @@
+Content World Bank Projects & Operations provides access to basic information
+on all of the World Bank's lending projects from 1947 to the present. The
+dataset includes basic information such as the project title, task manager,
+country, project id, sector, themes, commitment amount, product line,
+procurement notices, contract awards, and financing. It also provides links to
+publicly disclosed online documents. For older projects, there is a link to
+the Archives catalog, which contains records of older documents. Where
+available, there are also links to contract awards since July 2000. Context
+This is a dataset hosted by the World Bank. The organization has an open data
+platform found here and they update their information according the amount of
+data that is brought in. Explore the World Bank using Kaggle and all of the
+data sources available through the World Bank organization page! Update
+Frequency: This dataset is updated daily. Acknowledgements This dataset is
+maintained using the World Bank's APIs and Kaggle's API. Cover photo by Jack
+Catterall on Unsplash Unsplash Images are distributed under a unique Unsplash
+License.
+

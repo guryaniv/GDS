@@ -1,0 +1,7 @@
+Submissions are evaluated on the RMSLE between their predicted prices and the
+actual data. The target variable, called price_doc in the training set, is the
+sale price of each property. Submission File For each id in the test set, you
+must predict the price that the property sold for. The file should contain a
+header and have the following format: id,price_doc 30474,7118500.44
+30475,7118500.44 30476,7118500.44 etc.
+

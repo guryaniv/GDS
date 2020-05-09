@@ -1,0 +1,8 @@
+The evaluation metric for this competition is the RMSLE (root mean squared log
+error) between the actual and predicted auction prices. Sample submission
+files can be downloaded from the data page. Submission files should be
+formatted as follows: Have a header: "SalesID,SalePrice" Contain two columns
+SalesID: SalesID for the validation set in sorted order SalePrice: Your
+predicted price of the sale Example lines of the submission format:
+SalesID,SalePrice 1222837,36205 3044012,74570 1222841,31910.50 ...
+

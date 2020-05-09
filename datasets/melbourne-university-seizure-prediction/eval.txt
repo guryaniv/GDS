@@ -1,0 +1,7 @@
+Submissions are evaluated on area under the ROC curve between the predicted
+probability and the observed target. Submission File For each File in the test
+set, you must predict a probability for the Class variable. A probability of 1
+indicates a prediction of the preictal class. The file should contain a header
+and have the following format: File,Class 1_1.mat,0.1 1_2.mat,0.00 1_3.mat,1
+etc.
+

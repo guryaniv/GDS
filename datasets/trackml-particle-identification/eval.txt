@@ -1,0 +1,28 @@
+Custom metric The evaluation metric for this competition is a custom metric.
+In one line : it is the intersection between the reconstructed tracks and the
+ground truth particles, normalized to one for each event, and averaged on the
+events of the test set. First, each hit is assigned a weight: the few first
+(starting from the center of the detector) and last hits have a larger weight
+hits from the more straight tracks (more rare, but more interesting) have a
+larger weight random hits or hits from very short tracks have weight zero the
+sum of the weights of all the hits of one event is 1 by construction the hit
+weights are available in the truth file. They are not revealed for the test
+dataset Then, the score is constructed as follows: tracks are uniquely matched
+to particles by the double majority rule: for a given track, the matching
+particle is the one to which the absolute majority (strictly more that 50%) of
+the track points belong. the track should have the absolute majority of the
+points of the matching particle. If any of these constraints is not met, the
+score for this track is zero the score of a surviving track is the sum of the
+weights of the points of the intersection between the track and the matching
+particle. the score of an event is the sum of the score of all its tracks. the
+final score is the average on the events of the public and private leaderboard
+test respectively. A perfect algorithm will have a score of 1, while a random
+one will have a score 0. An example implementation can be found in the trackml
+python library. Submission Format The submission file should contain three
+columns: event_id, hit_id, track_id, and should have exactly one line for
+every hit of every event. event_id is the event number hit_id is the hit
+number, within that event track_id is the user defined numerical identifier
+(non negative integer) of the track (the track being the group or cluster of
+hits). The file should contain a header and have the following format:
+event_id,hit_id,track_id 0,0,21 0,1,49 0,3,32 0,4,0 0,5,21 etc...
+

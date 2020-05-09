@@ -1,0 +1,11 @@
+Hungry for a new competition? Give thanks for this opportunity to avoid those
+awkward family political dinner discussions and endless holiday movie
+marathons over the Thanksgiving break. Spend time with your Kaggle family
+instead to find the real turkey! In this competition you are tasked with
+finding the turkey sound signature from pre-extracted audio features. A simple
+binary problem, or is it? What does a turkey really sound like? How many
+sounds are similar? Will you be able to find the turkey or will you go a-fowl?
+This is a short, fun, holiday, playground competition. Please, do not ruin the
+fun for yourself and for everyone by using a model trained on the answers.
+Don't be a turkey!
+

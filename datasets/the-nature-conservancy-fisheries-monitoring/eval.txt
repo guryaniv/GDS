@@ -1,0 +1,18 @@
+Submissions are evaluated using the multi-class logarithmic loss. Each image
+has been labeled with one true class. For each image, you must submit a set of
+predicted probabilities (one for every image). The formula is then, logloss=−
+1 N N ∑ i=1 M ∑ j=1 yijlog(pij), where N is the number of images in the test
+set, M is the number of image class labels, log is the natural logarithm, yij
+is 1 if observation i belongs to class j and 0 otherwise, and pij is the
+predicted probability that observation i belongs to class j . The submitted
+probabilities for a given image are not required to sum to one because they
+are rescaled prior to being scored (each row is divided by the row sum). In
+order to avoid the extremes of the log function, predicted probabilities are
+replaced with max(min(p,1−10−15),10−15) . Submission File You must submit a
+csv file with the image file name, and a probability for each class. The 8
+classes to predict are: 'ALB', 'BET', 'DOL', 'LAG', 'NoF', 'OTHER',
+'SHARK','YFT' The order of the rows does not matter. The file must have a
+header and should look like the following:
+image,ALB,BET,DOL,LAG,NoF,OTHER,SHARK,YFT img_00001.jpg,1,0,0,0,0,...,0
+img_00002.jpg,0.3,0.1,0.6,0,...,0 ...
+

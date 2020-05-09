@@ -1,0 +1,18 @@
+All was well in Santa's workshop. The gifts were made, the route was planned,
+the naughty and nice list complete. Santa thought this would finally be the
+year he didn't need Kaggle's help with his combinatorial conundrums. At last,
+the Claus family could take the elves and reindeer on that well deserved
+vacation to the South Pole. Then, with just days until the big night, Santa
+received an email from a panicked database admin elf. Attached was a server
+log with the six least jolly words a jolly old St. Nick could read: ALTER
+TABLE Gifts DROP COLUMN Weight One of the North Pole elf interns had
+mistakenly deleted the weights for all of the inventory in the workshop! Santa
+didn't have a backup (remember, this is a guy who makes a list and checks it
+twice) and, without knowing each present's weight, he didn't know how he would
+safely pack his many gift bags. Gifts were already on their way to the sleigh
+packing facility and there wasn't time to re-weigh all the presents. It was
+once again necessary to summon the holiday talents of Kaggle's elite. Can you
+help Santa fill his multiple bags with sets of uncertain gifts? Save the
+season by turning Santa's uncertain probabilities into presents for good
+little boys and girls.
+

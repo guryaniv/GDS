@@ -1,0 +1,10 @@
+The evaluation metric for this competition is Root Mean Squared Logarithmic
+Error. The RMSLE is calculated as ϵ= √ 1 n n ∑ i=1 (log(pi+1)−log(ai+1))2
+Where: ϵ is the RMSLE value (score) n is the total number of observations in
+the (public/private) data set, pi is your prediction of trip duration, and ai
+is the actual trip duration for i . log(x) is the natural logarithm of x
+Submission File For every row in the dataset, submission files should contain
+two columns: id and trip_duration. The id corresponds to the column of that id
+in the test.csv. The file should contain a header and have the following
+format: id,trip_duration id00001,978 id00002,978 id00003,978 id00004,978 etc.
+

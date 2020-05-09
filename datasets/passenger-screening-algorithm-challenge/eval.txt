@@ -1,0 +1,18 @@
+For every scan in the dataset, you will be predicting the probability that a
+threat is present in each of 17 body zones. A diagram of the body zone
+locations is available in the competition files section. The description of
+each zone is as follows: If there are N images, you will be making 17N
+predictions. Submissions are scored on the log loss: − 1 N ∑ i=1 N [ y i log(
+y ^ i )+(1− y i )log(1− y ^ i )], where: N is the 17 * the number of scans in
+the test set y ^ i is the predicted probability of the scan having a threat in
+the given body zone y i is 1 if a threat is present, 0 otherwise log() is the
+natural (base e) logarithm Note: the actual submitted predicted probabilities
+are replaced with max(min(p,1− 10 −15 ), 10 −15 ) . A smaller log loss is
+better. Submission File You must predict a probability for each Id and body
+zone. The Id used for the submission is created by concatenating the image Id
+with the zone for which you are predicting ('_Zone1' through '_Zone17'). The
+file should have a header and be in the following format: Id,Probability
+0397026df63bbc8fd88f9860c6e35b4a_Zone1,0.002
+0397026df63bbc8fd88f9860c6e35b4a_Zone2,0.32
+0397026df63bbc8fd88f9860c6e35b4a_Zone3,0.88 etc...
+

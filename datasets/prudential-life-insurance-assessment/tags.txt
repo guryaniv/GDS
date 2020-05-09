@@ -1,0 +1,1 @@
+['tabular data', 'ranking', 'quadraticweightedkappa', 'extra small']

@@ -1,0 +1,5 @@
+Submissions are evaluated on the R^2 value, also called the coefficient of
+determination. Submission File For each 'ID' in the test set, you must predict
+the 'y' variable. The file should contain a header and have the following
+format: ID,y 1,100 2,100.33 3,105.81 ...
+

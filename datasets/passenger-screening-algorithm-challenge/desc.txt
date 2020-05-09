@@ -1,0 +1,28 @@
+While long lines and frantically shuffling luggage into plastic bins isn’t a
+fun experience, airport security is a critical and necessary requirement for
+safe travel. No one understands the need for both thorough security screenings
+and short wait times more than U.S. Transportation Security Administration
+(TSA). They’re responsible for all U.S. airport security, screening more than
+two million passengers daily. As part of their Apex Screening at Speed
+Program, DHS has identified high false alarm rates as creating significant
+bottlenecks at the airport checkpoints. Whenever TSA’s sensors and algorithms
+predict a potential threat, TSA staff needs to engage in a secondary, manual
+screening process that slows everything down. And as the number of travelers
+increase every year and new threats develop, their prediction algorithms need
+to continually improve to meet the increased demand. Currently, TSA purchases
+updated algorithms exclusively from the manufacturers of the scanning
+equipment used. These algorithms are proprietary, expensive, and often
+released in long cycles. In this competition, TSA is stepping outside their
+established procurement process and is challenging the broader data science
+community to help improve the accuracy of their threat prediction algorithms.
+Using a dataset of images collected on the latest generation of scanners,
+participants are challenged to identify the presence of simulated threats
+under a variety of object types, clothing types, and body types. Even a modest
+decrease in false alarms will help TSA significantly improve the passenger
+experience while maintaining high levels of security. This is a two-stage
+competition. Please read our two-stage FAQs to understand more about what this
+means. All persons contained in the dataset are volunteers who have agreed to
+have their images used for this competition. The images may contain sensitive
+content. We kindly request that you conduct yourself with professionalism,
+respect, and maturity when working with this data.
+

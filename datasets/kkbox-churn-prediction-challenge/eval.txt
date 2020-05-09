@@ -1,0 +1,12 @@
+The evaluation metric for this competition is Log Loss logloss=− 1 N ∑ i=1 N (
+y i log( p i )+(1− y i )log(1− p i )) where N is the number of observations,
+log l is the natural logarithm, y i y is the binary target, and p i p is the
+predicted probability that y i y equals 1. Note: the actual submitted
+predicted probabilities are replaced with max(min(p,1− 10 −15 ), 10 −15 ) m .
+Submission File For each user id (msno) in the test set, you must predict the
+probability of churn (a number between 0 and 1). The file should contain a
+header and have the following format: msno,is_churn
+ugx0CjOMzazClkFzU2xasmDZaoIqOUAZPsH1q0teWCg=,0.5
+zLo9f73nGGT1p21ltZC3ChiRnAVvgibMyazbCxvWPcg=,0.4
+f/NmvEzHfhINFEYZTR05prUdr+E+3+oewvweYz9cCQE=,0.9 etc.
+

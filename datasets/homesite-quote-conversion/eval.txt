@@ -1,0 +1,6 @@
+Submissions are evaluated on area under the ROC curve between the predicted
+probability and the observed target. Submission File For each QuoteNumber in
+the test set, you must predict a probability for QuoteConversion_Flag. The
+file should contain a header and have the following format:
+QuoteNumber,QuoteConversion_Flag 3,0 5,0.3 7,0 etc.
+

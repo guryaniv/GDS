@@ -1,0 +1,27 @@
+Submissions are evaluated on Average Jaccard Index between the predicted
+multipolygons and the actual multipolygons. This is a vector-based metric
+where we use polygon geometries to evaluate how well your predictions are
+aligned with the answer. The Jaccard Index for two regions A and B, also known
+as the "intersection over union", is defined as: Jaccard= TP TP+FP+FN = |A∩B|
+|A∪B| = |A∩B| |A|+|B|−|A∩B| where TP is the true positives area, FP is the
+false positives area, and FN is the false negatives area. For each object
+class, of each image, we calculate the TP, FP, and FN areas. We then sum the
+total TP, total FP, and total FN across all the images, then the Jaccard is
+calculated for that class using total TP, total FP, and total FN. Then, we
+average all the Jaccard Indexes for all the 10 classes. Submission File For
+every row in the dataset, submission files should contain the following:
+ImageId (string), ClassType (int), and MultipolygonWKT (multipolygon
+coordinates in WKT format). You must submit a row for every ImageId and every
+ClassType. The complete format is in the sample_submission.csv file. If you
+want to predict an empty polygon for the class, put down MULTIPOLYGON EMPTY.
+Please submit all the rows in exactly the same order as sample_submission.csv,
+otherwise you might get a "key not found error". The file should contain a
+header and have the following format: ImageId,ClassType,MultipolygonWKT
+6020_0_1, 1, MULTIPOLYGON EMPTY 6120_2_4,1,"POLYGON ((0 0, 0.009188 0,
+0.009188 -0.009039999999999999, 0 -0.009039999999999999, 0 0))" etc.
+Submission Time If you have complex polygons, it could take a longer time (4+
+mins) to evaluate your submission. Please be patient when the submission is
+getting evaluated! If you find yourself getting timed out, please consider
+simplifying (smoothing) your polygons to reduce both the submission file size
+and the time it takes to evaluate the submission.
+

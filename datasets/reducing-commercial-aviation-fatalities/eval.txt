@@ -1,0 +1,10 @@
+Submissions are evaluated on the Multi Class Log Loss between the predicted
+probabilities and the observed target. The submitted probabilities are not
+required to sum to one because they are rescaled prior to being scored (each
+row is divided by the row sum). In order to avoid the extremes of the log
+function, predicted probabilities are replaced with max(min(p,1− 10 −15 ), 10
+−15 ) m . Submission File For each id in the test set, you must predict a
+probability for each of the 4 possible cognitive states ( A = baseline / no
+event, B = SS, C = CA, D = DA). The file must have a header and should look
+like the following: id,A,B,C,D 0,1,0,0,0 1,1,0,0,0 2,1,0,0,0 etc.
+

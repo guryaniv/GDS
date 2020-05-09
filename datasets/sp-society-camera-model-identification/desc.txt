@@ -1,0 +1,18 @@
+Finding footage of a crime caught on tape is an investigator's dream. But even
+with crystal clear, damning evidence, one critical question always remains–is
+the footage real? Today, one way to help authenticate footage is to identify
+the camera that the image was taken with. Forgeries often require splicing
+together content from two different cameras. But, unfortunately, the most
+common way to do this now is using image metadata, which can be easily
+falsified itself. This problem is actively studied by several researchers
+around the world. Many machine learning solutions have been proposed in the
+past: least-squares estimates of a camera's color demosaicing filters as
+classification features, co-occurrences of pixel value prediction errors as
+features that are passed to sophisticated ensemble classifiers, and using CNNs
+to learn camera model identification features. However, this is a problem yet
+to be sufficiently solved. For this competition, the IEEE Signal Processing
+Society is challenging you to build an algorithm that identifies which camera
+model captured an image by using traces intrinsically left in the image.
+Helping to solve this problem would have a big impact on the verification of
+evidence used in criminal and civil trials and even news reporting.
+

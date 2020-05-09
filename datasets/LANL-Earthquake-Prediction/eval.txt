@@ -1,0 +1,7 @@
+Submissions are evaluated using the mean absolute error between the predicted
+time remaining before the next lab earthquake and the act remaining time.
+Submission File For each seg_id in the test set folder, you must predict
+time_to_failure, which is the remaining time before the next lab earthquake.
+The file should contain a header and have the following format:
+seg_id,time_to_failure seg_00030f,0 seg_0012b5,0 seg_00184e,0 ...
+

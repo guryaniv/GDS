@@ -1,0 +1,10 @@
+The evaluation metric for this competition is Root Mean Squared Logarithmic
+Error. The RMSLE is calculated as ϵ= √ 1 n n ∑ i=1 (log(pi+1)−log(ai+1))2
+Where: ϵ is the RMSLE value (score) n is the total number of observations in
+the (public/private) data set, pi is your prediction of price, and ai is the
+actual sale price for i. log(x) is the natural logarithm of x Submission File
+For every row in the dataset, submission files should contain two columns:
+test_id and price. The id corresponds to the column of that id in the
+test.tsv. The file should contain a header and have the following format:
+test_id,price 0,1.50 1,50 2,500 3,100 etc.
+

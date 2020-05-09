@@ -1,0 +1,6 @@
+Submissions are evaluated on area under the ROC curve between the predicted
+probability and the observed target. Submission File For each image in the
+test set, you must predict a probability for the target variable on whether
+the image contains invasive species or not. The file should contain a header
+and have the following format: name,invasive 2,0.5 5,0 6,0.2 etc.
+

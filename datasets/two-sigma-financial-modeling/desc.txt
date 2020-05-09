@@ -1,0 +1,46 @@
+How can we use the world’s tools and intelligence to forecast economic
+outcomes that can never be entirely predictable? This question is at the core
+of countless economic activities around the world – including at Two Sigma
+Investments, who has been applying technology and systematic strategies to
+financial trading since 2001. For over 15 years, Two Sigma has been at the
+forefront of applying technology and data science to financial forecasts.
+While their pioneering advances in big data, AI, and machine learning in the
+financial world have been pushing the industry forward, as with all other
+scientific progress, they are driven to make continual progress. Through this
+exclusive partnership, Two Sigma is excited to explore what untapped value
+Kaggle's diverse data science community can discover in the financial markets.
+Economic opportunity depends on the ability to deliver singularly accurate
+forecasts in a world of uncertainty. By accurately predicting financial
+movements, Kagglers will learn about scientifically-driven approaches to
+unlocking significant predictive capability. Two Sigma is excited to find
+predictive value and gain a better understanding of the skills offered by the
+global data science crowd. What is a Code Competition? Welcome to Kaggle's
+very first Code Competition! In contrast to our traditional competitions,
+where competitors submit only prediction outputs, participants in Code
+Competitions will submit their code via Kaggle Kernels. All kernels are
+private by default in Code Competitions. You can build your models in Kernels
+by running them on a training set and, once you're ready to submit your code,
+your model's performance will be evaluated against the test set and your score
+and public leaderboard position revealed. As with our traditional
+competitions, we still maintain a private leaderboard test set, which your
+code is also evaluated against for final scoring, but is not revealed until
+the competition closes. Since Code Competitions are brand new, we ask for your
+patience if you encounter bugs or frustrating platform quirks. Please report
+any issues you find in the forums and we'll do our best to respond. Who owns
+my code? You do. Even though you are submitting code, the intellectual
+property exchange here works similarly to a standard prediction competition,
+whereby prize winners have the option to grant a non-exclusive license in
+exchange for a prize. There is a new addition to the terms for Code
+Competitions: Kaggle and the competition host reserve a right to review
+submissions "for purposes related to evaluation and scoring in this
+Competition, including but not limited to the assessment of potential cheating
+behavior." Please refer to the official competition rules for full details.
+Getting Started Review the data page for details about the data and the
+evaluation metric. You may download the train set for local training. Take a
+look at the tutorial covering the new code submission process under the
+submission instructions tab. You'll find step-by-step instructions, some
+helpful pointers, plus details on environment constraints. Get feedback on
+your benchmark code and share exploratory analyses with the community by
+making any of your kernels public. Improve your score! Note: there is no cost
+of entry for participation.
+

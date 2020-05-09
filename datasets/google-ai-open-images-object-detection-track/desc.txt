@@ -1,0 +1,38 @@
+Introduction Google AI (Google’s AI research arm, tasked with advancing AI for
+everyone) is challenging you to build an algorithm that detects objects
+automatically using an absolutely massive training dataset ― one with more
+varied and complex bounding-box annotations and object classes than ever
+before. Here's the background. Computers are getting better and better at
+vision. But in a few critical ways, they still can't match a human’s intuitive
+perception. For example, what do you see when you look at this photo? Most of
+us would answer, “a sandy beach, the ocean, a few people walking, some trees,
+grass, and buildings…a woman walking her dog right there! Oh yeah, and there
+is a man holding a plastic cup.” Can a computer provide as precise an image
+description? Google AI wants to further push the capabilities of computer
+vision. We hope that providing very large training set will stimulate research
+into more sophisticated object and relationship detection models that will
+exceed current state-of-the-art performance. The results of this Challenge
+will be presented at a workshop at the European Conference on Computer Vision
+2018. Object Detection Track Object detection is a central task in computer
+vision, with applications ranging across search, robotics, self-driving cars,
+and many others. As deep network solutions become deeper and more complex,
+they are often limited by the amount of training data available. With this in
+mind, to spur advances in analyzing and understanding images, Google AI has
+publicly released the Open Images dataset. Open Images follows the tradition
+of PASCAL VOC, ImageNet and COCO, now at an unprecedented scale. The Open
+Images Challenge is based on Open Images dataset. The training set of the
+Challenge contains: 12M bounding-box annotations for 500 object classes on
+1.7M training images Images of complex scenes with several objects–an average
+of 7 boxes per image Highly varied images that contain brand new objects like
+“fedora” and “snowman” Class hierarchy that reflects the relationships between
+classes of Open Images. In this track of the Challenge, you are asked to build
+the best performing algorithm for automatically detecting objects. Please
+refer to the Open Images Challenge page for additional details on the dataset.
+In addition to this Object Detection track, the Challenge also includes a
+Visual Relationship Detection track to detect pairs of objects in particular
+relations, e.g. "woman playing guitar," "beer on table," "dog inside car",
+"man holding coffee", etc. The Visual Relationship Detection track is
+available here. Example annotations. Left: Mark Paul Gosselaar plays the
+guitar by Rhys A. Right: the house by anita kluska. Both images used under CC
+BY 2.0 license.
+

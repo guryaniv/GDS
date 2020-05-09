@@ -1,0 +1,10 @@
+Submissions are evaluated according to the Mean Average Precision @ 7 (MAP@7):
+MAP@7= 1 |U| |U| ∑ u=1 1 min(m,7) min(n,7) ∑ k=1 P(k) where |U| is the number
+of rows (users in two time points), P(k) is the precision at cutoff k, n is
+the number of predicted products, and m is the number of added products for
+the given user at that time point. If m = 0, the precision is defined to be 0.
+Submission File For every user at each time point, you must predict a space-
+delimited list of the products they added. The file should contain a header
+and have the following format: ncodpers,added_products 15889,ind_tjcr_fin_ult1
+15890,ind_tjcr_fin_ult1 ind_recibo_ult1 15892,ind_nomina_ult1 15893, etc.
+

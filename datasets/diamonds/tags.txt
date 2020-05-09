@@ -1,0 +1,1 @@
+['finance', 'clothing', 'small', 'featured']

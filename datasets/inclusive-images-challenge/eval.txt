@@ -1,0 +1,13 @@
+For this competition each image has multiple ground truth labels. We will use
+Mean F2 score to measure the algorithm quality. The metric is also known as
+the example based F-score with a beta of 2. The F2 metric weights recall more
+heavily than precision, but a good recognition algorithm will still balance
+precision and recall. Moderately good performance on both will be favored over
+extremely good performance on one and poor performance on the other.
+Submission File For every image in the dataset, submission files should
+contain two columns: image id and predicted labels. Labels should be a space-
+delimited list. Note that if the algorithm doesn’t predict anything, the
+column can be left blank. The file must have a header and should look like the
+following: image_id,labels 2b2b327132556c767a736b3d,/m/0sgh53y /m/0g4cd0
+2b2b394755692f303963553d,/m/0sgh70d /m/0g44ag etc
+

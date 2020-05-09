@@ -1,0 +1,8 @@
+Submissions will be evaluated based on their mean F1 score. Submission File
+For each order_id in the test set, you should predict a space-delimited list
+of product_ids for that order. If you wish to predict an empty order, you
+should submit an explicit 'None' value. You may combine 'None' with
+product_ids. The spelling of 'None' is case sensitive in the scoring metric.
+The file should have a header and look like the following: order_id,products
+17,1 2 34,None 137,1 2 3 etc.
+

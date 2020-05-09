@@ -1,0 +1,8 @@
+Submissions are evaluated on SMAPE between forecasts and actual values. We
+define SMAPE = 0 when the actual and predicted values are both 0. Kernel
+Submissions You can only make submissions directly from Kaggle Kernels. By
+adding your teammates as collaborators on a kernel, you can share and edit
+code privately with them. Submission File For each id in the test set, you
+must predict a probability for the sales variable. The file should contain a
+header and have the following format: id,sales 0,35 1,22 2,5 etc.
+

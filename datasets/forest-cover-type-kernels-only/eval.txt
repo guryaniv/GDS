@@ -1,0 +1,5 @@
+Submissions are evaluated on multi-class classification accuracy. Submission
+File Your submission file should have the observation Id and a predicted cover
+type (an integer between 1 and 7, inclusive). The file should contain a header
+and have the following format: Id,Cover_Type 15121,1 15122,1 15123,1 ...
+

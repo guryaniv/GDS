@@ -1,0 +1,6 @@
+Submissions are evaluated using AUCROC between the predicted target and the
+actual target value. Submission File For each id in the test set, you must
+predict a probability for the target variable. The file should contain a
+header and have the following format: id,target 300,0 301,0 302,0 303,0 304,0
+305,0 306,0 307,0 308,0
+

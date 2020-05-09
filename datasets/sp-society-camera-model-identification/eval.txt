@@ -1,0 +1,11 @@
+This competition is evaluated on the weighted categorization accuracy of your
+predictions (the percentage of camera models correctly predicted).
+weighted_accuracy(y, y ^ )= 1 n ∑ i=1 n w i ( y i = y ^ i ) ∑ w i where n is
+the number of samples in the test set, y is the true camera label, y_hat is
+the predicted camera label, and w_i is 0.7 for unaltered images, and 0.3 for
+altered images. Submission File For each image fname in the test set, you must
+predict a the correct camera model. The submission file should contain a
+header and have the following format: fname,camera
+img_0002a04_manip.tif,iPhone-6 img_001e31c_unalt.tif,iPhone-6
+img_00275cf_manip.tif,iPhone-6 img_0034113_unalt.tif,iPhone-6
+

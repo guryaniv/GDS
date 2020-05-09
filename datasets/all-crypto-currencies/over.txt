@@ -1,0 +1,11 @@
+Cryptocurrency Market Data Historical Cryptocurrency Prices For ALL Tokens!
+Summary > Observations: 758,534 > Variables: 13 > Crypto Tokens: 1,584 > Start
+Date: 28/04/2017 > End Date: 21/05/2018 Description All historic open, high,
+low, close, trading volume and market cap info for all cryptocurrencies. I've
+had to go over the code with a fine tooth comb to get it compatible with CRAN
+so there have been significant enhancements to how some of the field
+conversions have been undertaken and the data being cleaned. This should
+eliminate a few issues around number formatting or unexpected handling of
+scientific notations. Data Structure Observations: 649,051 Variables: 13 $
+slug
+

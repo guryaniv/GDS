@@ -1,0 +1,51 @@
+This competition is evaluated on the mean average precision at different
+intersection over union (IoU) thresholds. The IoU of a set of predicted
+bounding boxes and ground truth bounding boxes is calculated as: IoU(A,B)= A∩B
+A∪B . The metric sweeps over a range of IoU thresholds, at each point
+calculating an average precision value. The threshold values range from 0.4 to
+0.75 with a step size of 0.05: (0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75).
+In other words, at a threshold of 0.5, a predicted object is considered a
+"hit" if its intersection over union with a ground truth object is greater
+than 0.5. At each threshold value t , a precision value is calculated based on
+the number of true positives (TP), false negatives (FN), and false positives
+(FP) resulting from comparing the predicted object to all ground truth
+objects: TP(t) TP(t)+FP(t)+FN(t) . A true positive is counted when a single
+predicted object matches a ground truth object with an IoU above the
+threshold. A false positive indicates a predicted object had no associated
+ground truth object. A false negative indicates a ground truth object had no
+associated predicted object. Important note: if there are no ground truth
+objects at all for a given image, ANY number of predictions (false positives)
+will result in the image receiving a score of zero, and being included in the
+mean average precision. The average precision of a single image is calculated
+as the mean of the above precision values at each IoU threshold: 1
+|thresholds| ∑ t TP(t) TP(t)+FP(t)+FN(t) . In your submission, you are also
+asked to provide a confidence level for each bounding box. Bounding boxes will
+be evaluated in order of their confidence levels in the above process. This
+means that bounding boxes with higher confidence will be checked first for
+matches against solutions, which determines what boxes are considered true and
+false positives. NOTE: In nearly all cases confidence will have no impact on
+scoring. It exists primarily to allow for submission boxes to be evaluated in
+a particular order to resolve extreme edge cases. None of these edge cases are
+known to exist in the data set. If you do not wish to use or calculate
+confidence you can use a placeholder value - like 1.0 - to indicate that no
+particular order applies to the evaluation of your submission boxes. Lastly,
+the score returned by the competition metric is the mean taken over the
+individual average precisions of each image in the test dataset. Intersection
+over Union (IoU) Intersection over Union is a measure of the magnitude of
+overlap between two bounding boxes (or, in the more general case, two
+objects). It calculates the size of the overlap between two objects, divided
+by the total area of the two objects combined. It can be visualized as the
+following: The two boxes in the visualization overlap, but the area of the
+overlap is insubstantial compared with the area taken up by both objects
+together. IoU would be low - and would likely not count as a "hit" at higher
+IoU thresholds. Submission File The submission format requires a space
+delimited set of bounding boxes. For example:
+0004cfab-14fd-4e49-80ba-63a80b6bddd6,0.5 0 0 100 100 indicates that image
+0004cfab-14fd-4e49-80ba-63a80b6bddd6 has a bounding box with a confidence of
+0.5, at x == 0 and y == 0, with a width and height of 100. The file should
+contain a header and have the following format. Each row in your submission
+should contain ALL bounding boxes for a given image.
+patientId,PredictionString 0004cfab-14fd-4e49-80ba-63a80b6bddd6,0.5 0 0 100
+100 00313ee0-9eaa-42f4-b0ab-c148ed3241cd,
+00322d4d-1c29-4943-afc9-b6754be640eb,0.8 10 10 50 50 0.75 100 100 5 5 etc...
+

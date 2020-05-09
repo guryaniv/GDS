@@ -1,0 +1,26 @@
+Help some of the world's leading astronomers grasp the deepest properties of
+the universe. The human eye has been the arbiter for the classification of
+astronomical sources in the night sky for hundreds of years. But a new
+facility -- the Large Synoptic Survey Telescope (LSST) -- is about to
+revolutionize the field, discovering 10 to 100 times more astronomical sources
+that vary in the night sky than we've ever known. Some of these sources will
+be completely unprecedented! The Photometric LSST Astronomical Time-Series
+Classification Challenge (PLAsTiCC) asks Kagglers to help prepare to classify
+the data from this new survey. Competitors will classify astronomical sources
+that vary with time into different classes, scaling from a small training set
+to a very large test set of the type the LSST will discover. More background
+information is available here. Acknowledgements PLAsTiCC is funded through
+LSST Corporation Grant Award # 2017-03 and administered by the University of
+Toronto. Financial support for LSST comes from the National Science Foundation
+(NSF) through Cooperative Agreement No. 1258333, the Department of Energy
+(DOE) Office of Science under Contract No. DE-AC02-76SF00515, and private
+funding raised by the LSST Corporation. The NSF-funded LSST Project Office for
+construction was established as an operating center under management of the
+Association of Universities for Research in Astronomy (AURA). The DOE-funded
+effort to build the LSST camera is managed by the SLAC National Accelerator
+Laboratory (SLAC). The National Science Foundation (NSF) is an independent
+federal agency created by Congress in 1950 to promote the progress of science.
+NSF supports basic research and people to create knowledge that transforms the
+future. Photo Credit: M. Park/Inigo Films/LSST/AURA/NSF [1]:
+https://arxiv.org/abs/1810.00001
+

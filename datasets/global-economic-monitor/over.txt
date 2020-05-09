@@ -1,0 +1,14 @@
+Content Providing daily updates of global economic developments, with coverage
+of high income- as well as developing countries. Daily data updates are
+provided for exchange rates, equity markets, and emerging market bond indices.
+Monthly data coverage (updated daily and populated upon availability) is
+provided for consumer prices, high-tech market indicators, industrial
+production and merchandise trade. Context This is a dataset hosted by the
+World Bank. The organization has an open data platform found here and they
+update their information according the amount of data that is brought in.
+Explore the World Bank using Kaggle and all of the data sources available
+through the World Bank organization page! Update Frequency: This dataset is
+updated daily. Acknowledgements This dataset is maintained using the World
+Bank's APIs and Kaggle's API. Cover photo by Patrick Hendry on Unsplash
+Unsplash Images are distributed under a unique Unsplash License.
+

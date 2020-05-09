@@ -1,0 +1,1 @@
+['economics', 'healthcare', 'large', 'featured']

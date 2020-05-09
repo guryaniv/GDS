@@ -1,0 +1,12 @@
+Submissions are evaluated on MeanFScore, which at Kaggle is actually a micro-
+averaged F1-score. Given positive/negative rates for each class k, the
+resulting score is computed this way: Precisio n micro = ∑ k∈C T P k ∑ k∈C T P
+k +F P k Recal l micro = ∑ k∈C T P k ∑ k∈C T P k +F N k F1-score is the
+harmonic mean of precision and recall MeanFScore=F 1 micro = 2Precisio n micro
+Recal l micro Precisio n micro +Recal l micro
+MeanFScore=F1micro=2PrecisionmicroRecallmicroPrecisionm Submission File For
+eachfile in the test set, you must predict a probability for the species
+variable. The file should contain a header and have the following format:
+file,species 0021e90e4.png,Maize 003d61042.png,Sugar beet 007b3da8b.png,Common
+wheat etc.
+

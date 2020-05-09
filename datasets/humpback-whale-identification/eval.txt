@@ -1,0 +1,16 @@
+Submissions are evaluated according to the Mean Average Precision @ 5 (MAP@5):
+MAP@5= 1 U U ∑ u=1 min(n,5) ∑ k=1 P(k)×rel(k) where U is the number of images,
+P(k) is the precision at cutoff k , n is the number predictions per image, and
+rel(k) is an indicator function equaling 1 if the item at rank k is a relevant
+(correct) label, zero otherwise. Once a correct label has been scored for an
+observation, that label is no longer considered relevant for that observation,
+and additional predictions of that label are skipped in the calculation. For
+example, if the correct label is A for an observation, the following
+predictions all score an average precision of 1.0. [A, B, C, D, E] [A, A, A,
+A, A] [A, B, A, C, A] Submission File For each Image in the test set, you may
+predict up to 5 labels for the whale Id. Whales that are not predicted to be
+one of the labels in the training data should be labeled as new_whale. The
+file should contain a header and have the following format: Image,Id
+00028a005.jpg,new_whale w_23a388d w_9b5109b w_9c506f6 w_0369a5c
+000dcf7d8.jpg,new_whale w_23a388d w_9b5109b w_9c506f6 w_0369a5c ...
+

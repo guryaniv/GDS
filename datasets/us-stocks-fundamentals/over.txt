@@ -1,0 +1,5 @@
+This dataset contains US stocks fundamental data, such as income statement,
+balance sheet and cash flows. 12,129 companies 8,526 unique indicators ~20
+indicators comparable across most companies Five years of data, yearly The
+data is provided by http://usfundamentals.com.
+

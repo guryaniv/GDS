@@ -1,0 +1,11 @@
+Content The Data on Statistical Capacity website provides information on
+various aspects of national statistical systems of developing countries,
+including a country-level statistical capacity indicator. Context This is a
+dataset hosted by the World Bank. The organization has an open data platform
+found here and they update their information according the amount of data that
+is brought in. Explore the World Bank using Kaggle and all of the data sources
+available through the World Bank organization page! Update Frequency: This
+dataset is updated daily. Acknowledgements This dataset is maintained using
+the World Bank's APIs and Kaggle's API. Cover photo by Etienne Gobeli on
+Unsplash Unsplash Images are distributed under a unique Unsplash License.
+

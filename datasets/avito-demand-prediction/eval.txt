@@ -1,0 +1,8 @@
+Root Mean Squared Error (RMSE) Submissions are scored on the root mean squared
+error. RMSE is defined as: RMSE= √ 1 n n ∑ i=1 (yi− ˆ y i)2 , where y hat is
+the predicted value and y is the original value. Submission File For each
+item_id in the test set, you must predict a probability for the
+deal_probability. Your predictions must be in the range [0, 1]. The submission
+file should contain a header and have the following format:
+item_id,deal_probability 2,0 5,0 6,0 etc.
+

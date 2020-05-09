@@ -1,0 +1,23 @@
+Submissions are scored on the log loss: LogLoss=− 1 n ∑ i=1 n [ y i log( y ^ i
+)+(1− y i )log(1− y ^ i )], where n is the number of games played y ^ i y is
+the predicted probability of team 1 beating team 2 y i y is 1 if team 1 wins,
+0 if team 2 wins log() l is the natural (base e) logarithm The use of the
+logarithm provides extreme punishments for being both confident and wrong. In
+the worst possible case, a prediction that something is true when it is
+actually false will add infinite to your error score. In order to prevent
+this, predictions are bounded away from the extremes by a small value.
+Submission File The file you submit will depend on whether the competition is
+in stage 1 (historical model building) or stage 2 (the 2018 tournament).
+Sample submission files will be provided for both stages. The format is a list
+of every possible matchup between the tournament teams. Since team1 vs. team2
+is the same as team2 vs. team1, we only include the game pairs where team1 has
+the lower team id. For example, in a tournament of 64 teams, you will predict
+(64*63)/2 = 2,016 matchups. Each game has a unique id created by concatenating
+the season in which the game was played, the team1 id, and the team2 id. For
+example, "2013_3104_3129" indicates team 3104 played team 3129 in the year
+2013. You must predict the probability that the team with the lower id beats
+the team with the higher id. The resulting submission format looks like the
+following, where "pred" represents the predicted probability that the first
+team will win: id,pred 2013_1103_1107,0.5 2013_1103_1112,0.5
+2013_1103_1125,0.5 ...
+

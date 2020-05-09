@@ -1,0 +1,19 @@
+Submissions are evaluated using a weighted multi-class logarithmic loss. The
+overall effect is such that each class is roughly equally important for the
+final score. Each object has been labeled with one type. For each object, you
+must submit a set of predicted probabilities (one for every category). The
+formula is then Log Loss=−( ∑ M i=1 wi⋅∑ Ni j=1 yij Ni ⋅lnpij ∑ M i=1 wi )
+where N is the number of objects in the class set, M is the number of classes,
+ln is the natural logarithm, yij is 1 if observation (i) belongs to class (j)
+and 0 otherwise, pij is the predicted probability that observation i belongs
+to class j . The submitted probabilities for a given object are not required
+to sum to one because they are rescaled prior to being scored (each row is
+divided by the row sum). In order to avoid the extremes of the log function,
+predicted probabilities are replaced with max(min(p,1−10−15),10−15) .
+Submission File For each object ID in the test set, you must predict a
+probability for each of the different possible classes. The file should
+contain a header and have the following format:
+object_id,class_6,class_15,class_16,class_42,class_52,class_53,class_62,class_64,class_65,class_67,class_88,class_90,class_92,class_95,class_99
+13,0,0.1,0,0.1,0,0.3,0,0,0,0,0,0.5,0,0,0 14,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+17,0.75,0.23,0,0,0.01,0,0,0,0,0.01,0,0,0,0,0 etc.
+

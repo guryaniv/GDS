@@ -1,0 +1,13 @@
+For this competition each image has multiple ground truth labels. We will use
+Mean F1 score (micro-averaged, see details here) to measure the algorithm
+quality. The metric is also known as the example based F-score in the multi-
+label learning literature. The F1 metric weights recall and precision equally,
+and a good recognition algorithm will maximize both precision and recall
+simultaneously. Thus, moderately good performance on both will be favored over
+extremely good performance on one and poor performance on the other.
+Submission File For every image in the dataset, submission files should
+contain two columns: image id and predicted labels. Labels should be a space-
+delimited list. Note that if the algorithm don’t predict anything, the column
+can be left blank. The file must have a header and should look like the
+following: id,predicted 12345,0 1 3 67890,83 293, etc.
+

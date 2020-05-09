@@ -1,0 +1,16 @@
+Submissions are evaluated on the Normalized Weighted Root Mean Squared
+Logarithmic Error (NWRMSLE), calculated as follows: NWRMSLE= √ ∑ n i=1 wi(ln(
+ˆ y i+1)−ln(yi+1))2 ∑ n i=1 wi where for row i, ˆ y i is the predicted
+unit_sales of an item and yi is the actual unit_sales; n is the total number
+of rows in the test set. The weights, wi , can be found in the items.csv file
+(see the Data page). Perishable items are given a weight of 1.25 where all
+other items are given a weight of 1.00. This metric is suitable when
+predicting values across a large range of orders of magnitudes. It avoids
+penalizing large differences in prediction when both the predicted and the
+true number are large: predicting 5 when the true value is 50 is penalized
+more than predicting 500 when the true value is 545. Submission File For
+eachid in the test set, you must predict theunit_sales. Because the metric
+uses ln(y+1), submissions are validated to ensure there are no negative
+predictions. The file should contain a header and have the following format:
+id,unit_sales 125497040,2.5 125497041,0.0 125497042,27.9 etc.
+

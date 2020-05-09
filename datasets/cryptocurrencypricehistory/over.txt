@@ -1,0 +1,76 @@
+Context Things like Block chain, Bitcoin, Bitcoin cash, Ethereum, Ripple etc
+are constantly coming in the news articles I read. So I wanted to understand
+more about it and this post helped me get started. Once the basics are done,
+the data scientist inside me started raising questions like: How many
+cryptocurrencies are there and what are their prices and valuations? Why is
+there a sudden surge in the interest in recent days? For getting answers to
+all these questions (and if possible to predict the future prices ;)), I
+started collecting data from coinmarketcap about the cryptocurrencies. So what
+next? Now that we have the price data, I wanted to dig a little more about the
+factors affecting the price of coins. I started of with Bitcoin and there are
+quite a few parameters which affect the price of Bitcoin. Thanks to Blockchain
+Info, I was able to get quite a few parameters on once in two day basis. This
+will help understand the other factors related to Bitcoin price and also help
+one make future predictions in a better way than just using the historical
+price. Content The dataset has one csv file for each currency. Price history
+is available on a daily basis from April 28, 2013. This dataset has the
+historical price information of some of the top crypto currencies by market
+capitalization. The currencies included are: Bitcoin Ethereum Ripple Bitcoin
+cash Bitconnect Dash Ethereum Classic Iota Litecoin Monero Nem Neo Numeraire
+Stratis Waves Date : date of observation Open : Opening price on the given day
+High : Highest price on the given day Low : Lowest price on the given day
+Close : Closing price on the given day Volume : Volume of transactions on the
+given day Market Cap : Market capitalization in USD Bitcoin Dataset
+(bitcoin_dataset.csv) : This dataset has the following features. Date : Date
+of observation btc_market_price : Average USD market price across major
+bitcoin exchanges. btc_total_bitcoins : The total number of bitcoins that have
+already been mined. btc_market_cap : The total USD value of bitcoin supply in
+circulation. btc_trade_volume : The total USD value of trading volume on major
+bitcoin exchanges. btc_blocks_size : The total size of all block headers and
+transactions. btc_avg_block_size : The average block size in MB.
+btc_n_orphaned_blocks : The total number of blocks mined but ultimately not
+attached to the main Bitcoin blockchain. btc_n_transactions_per_block : The
+average number of transactions per block. btc_median_confirmation_time : The
+median time for a transaction to be accepted into a mined block. btc_hash_rate
+: The estimated number of tera hashes per second the Bitcoin network is
+performing. btc_difficulty : A relative measure of how difficult it is to find
+a new block. btc_miners_revenue : Total value of coinbase block rewards and
+transaction fees paid to miners. btc_transaction_fees : The total value of all
+transaction fees paid to miners. btc_cost_per_transaction_percent : miners
+revenue as percentage of the transaction volume. btc_cost_per_transaction :
+miners revenue divided by the number of transactions. btc_n_unique_addresses :
+The total number of unique addresses used on the Bitcoin blockchain.
+btc_n_transactions : The number of daily confirmed Bitcoin transactions.
+btc_n_transactions_total : Total number of transactions.
+btc_n_transactions_excluding_popular : The total number of Bitcoin
+transactions, excluding the 100 most popular addresses.
+btc_n_transactions_excluding_chains_longer_than_100 : The total number of
+Bitcoin transactions per day excluding long transaction chains.
+btc_output_volume : The total value of all transaction outputs per day.
+btc_estimated_transaction_volume : The total estimated value of transactions
+on the Bitcoin blockchain. btc_estimated_transaction_volume_usd : The
+estimated transaction value in USD value. Ethereum Dataset
+(ethereum_dataset.csv): This dataset has the following features Date(UTC) :
+Date of transaction UnixTimeStamp : unix timestamp eth_etherprice : price of
+ethereum eth_tx : number of transactions per day eth_address : Cumulative
+address growth eth_supply : Number of ethers in supply eth_marketcap : Market
+cap in USD eth_hashrate : hash rate in GH/s eth_difficulty : Difficulty level
+in TH eth_blocks : number of blocks per day eth_uncles : number of uncles per
+day eth_blocksize : average block size in bytes eth_blocktime : average block
+time in seconds eth_gasprice : Average gas price in Wei eth_gaslimit : Gas
+limit per day eth_gasused : total gas used per day eth_ethersupply : new ether
+supply per day eth_chaindatasize : chain data size in bytes eth_ens_register :
+Ethereal Name Service (ENS) registrations per day Acknowledgements This data
+is taken from coinmarketcap and it is free to use the data. Bitcoin dataset is
+obtained from Blockchain Info. Ethereum dataset is obtained from Etherscan.
+Cover Image : Photo by Thomas Malama on Unsplash Inspiration Some of the
+questions which could be inferred from this dataset are: How did the
+historical prices / market capitalizations of various currencies change over
+time? Predicting the future price of the currencies Which currencies are more
+volatile and which ones are more stable? How does the price fluctuations of
+currencies correlate with each other? Seasonal trend in the price fluctuations
+Bitcoin / Ethereum dataset could be used to look at the following: Factors
+affecting the bitcoin / ether price. Directional prediction of bitcoin / ether
+price. (refer this paper for more inspiration) Actual bitcoin price
+prediction.
+

@@ -1,0 +1,19 @@
+Content The Global Financial Development Database is an extensive dataset of
+financial system characteristics for 206 economies. The database includes
+measures of (1) size of financial institutions and markets (financial depth),
+(2) degree to which individuals can and do use financial services (access),
+(3) efficiency of financial intermediaries and markets in intermediating
+resources and facilitating financial transactions (efficiency), and (4)
+stability of financial institutions and markets (stability). For a complete
+description of the dataset and a discussion of the underlying literature, see:
+Martin Čihák, Aslı Demirgüç-Kunt, Erik Feyen, and Ross Levine, 2012.
+"Benchmarking Financial Systems Around the World." World Bank Policy Research
+Working Paper 6175, World Bank, Washington, D.C. Context This is a dataset
+hosted by the World Bank. The organization has an open data platform found
+here and they update their information according the amount of data that is
+brought in. Explore the World Bank using Kaggle and all of the data sources
+available through the World Bank organization page! Update Frequency: This
+dataset is updated daily. Acknowledgements This dataset is maintained using
+the World Bank's APIs and Kaggle's API. Cover photo by Raphael Rychetsky on
+Unsplash Unsplash Images are distributed under a unique Unsplash License.
+

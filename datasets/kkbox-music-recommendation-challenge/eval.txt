@@ -1,0 +1,5 @@
+Submissions are evaluated on area under the ROC curve between the predicted
+probability and the observed target. Submission File For each id in the test
+set, you must predict a probability for the target variable. The file should
+contain a header and have the following format: id,target 2,0.3 5,0.1 6,1 etc.
+

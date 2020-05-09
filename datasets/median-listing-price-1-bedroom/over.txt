@@ -1,0 +1,24 @@
+Context This dataset includes the median list price divided by the square
+footage of a 1-bedroom home for a select number of neighborhoods around the
+United States. Content When available, data includes median price per square
+foot on a monthly basis between January 2010 and September 2016. Selected
+neighborhoods include: Upper East Side, New York, NY Spring Valley, Las Vegas,
+NV Hollywood, Los Angeles, CA Williamsburg, New York, NY Harlem, New York, NY
+Enterprise, Las Vegas,NV Downtown, San Jose, CA Sheepshead Bay, New York, NY
+Forest Hills, New York, NY Jackson Heights, New York, NY Gramercy, New York,
+NY Flagami, Miami, FL Downtown, Memphis, TN Chelsea, New York, NY Oak Lawn,
+Dallas, TX Greater Uptown, Houston, TX South Loop, Chicago, IL Makiki-Lower
+Punchbowl-Tantalus, Honolulu, HI Downtown, Los Angeles, CA Capitol Hill,
+Seattle, WA Clinton, New York, NY Alexandria West, Alexandria, VA Financial
+District, New York, NY Flatiron District, New York, NY Landmark-Van Dom,
+Alexandria, VA Flamingo Lummus, Miami Beach, FL Winchester, Las Vegas, NV
+Brickell, Miami, FL Waikiki, Honolulu, HI Back Bay, Boston, MA Sutton Place,
+New York, NY and several others Inspiration What neighborhoods have the most
+expensive real estate per square foot? Least expensive? Which neighborhoods
+and/or cities have the fastest growth rates in price? Are there any
+neighborhoods that remain relatively steady in price? Given that this metric
+is listing price per square foot, is there a similar dataset that could help
+you compare median square footage in a 1-bedroom home across neighborhoods?
+Acknowledgement This dataset is part of Zillow Data, and the original source
+can be found here, under the Neighborhoods link.
+

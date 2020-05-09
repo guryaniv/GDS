@@ -1,0 +1,6 @@
+Submissions are evaluated on area under the ROC curve between the predicted
+probability and the observed target. Submission File For each SK_ID_CURR in
+the test set, you must predict a probability for the TARGET variable. The file
+should contain a header and have the following format: SK_ID_CURR,TARGET
+100001,0.1 100005,0.9 100013,0.2 etc.
+

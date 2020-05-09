@@ -1,0 +1,12 @@
+Submissions are evaluated on the column-wise root mean squared logarithmic
+error. The RMSLE for a single column calculated as 1 n ∑ i=1 n (log( p i
++1)−log( a i +1) ) 2 − − − − − − − − − − − − − − − − − − − − − − − − − − √ ,
+where: n n is the total number of observations p i p is your prediction a i a
+is the actual value log(x) log is the natural logarithm of x x The final score
+is the mean of the RMSLE over all columns (in this case, 2). Submission File
+For each id in the test set, you must predict a value for both
+formation_energy_ev_natom and bandgap_energy_ev. The file should contain a
+header and have the following format:
+id,formation_energy_ev_natom,bandgap_energy_ev 1,0.1779,1.8892 2,0.1779,1.8892
+3,0.1779,1.8892 ...
+

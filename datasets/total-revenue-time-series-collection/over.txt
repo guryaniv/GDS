@@ -1,0 +1,10 @@
+Content More details about each file are in the individual file descriptions.
+Context This is a dataset from the U.S. Census Bureau hosted by the Federal
+Reserve Economic Database (FRED). FRED has a data platform found here and they
+update their information according the amount of data that is brought in.
+Explore the U.S. Census Bureau using Kaggle and all of the data sources
+available through the U.S. Census Bureau organization page! Update Frequency:
+This dataset is updated daily. Acknowledgements This dataset is maintained
+using FRED's API and Kaggle's API. Cover photo by Nathan Dumlao on Unsplash
+Unsplash Images are distributed under a unique Unsplash License.
+

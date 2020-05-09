@@ -1,0 +1,11 @@
+Submissions will be evaluated on the R value between the predicted and actual
+values. The R value similar to the R squared value, also called the
+coefficient of determination. R squared can be calculated as: R 2 =1− ∑ i ( y
+i − y ^ i ) 2 ∑ i ( y i −μ ) 2 . To calculate R, we then use: R=sign( R 2 ) ∣
+∣ R 2 ∣ ∣ − − − − √ , where y is the actual value, μ is the mean of the actual
+values, and y ^ is the predicted value. Do not be discouraged by low R values;
+in finance, given the high ratio of signal-to-noise, even a small R can
+deliver meaningful value! Negative R values are clipped at -1, i.e. the score
+you see will be max(−1,R) . Additionally, if a submission errors for any
+reason, you will receive a simple "Error" status.
+

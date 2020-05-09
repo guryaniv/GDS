@@ -1,0 +1,18 @@
+Submissions are evaluated using the multi-class logarithmic loss. Each image
+has been labeled with one true species. For each image, you must submit a set
+of predicted probabilities (one for every species). The formula is then,
+logloss=− 1 N ∑ i=1 N ∑ j=1 M y ij log( p ij ), where N is the number of
+images in the test set, M is the number of species labels, log is the natural
+logarithm, y ij is 1 if observation i is in class j and 0 otherwise, and p ij
+is the predicted probability that observation i belongs to class j . The
+submitted probabilities for a given device are not required to sum to one
+because they are rescaled prior to being scored (each row is divided by the
+row sum), but they need to be in the range of [0, 1]. In order to avoid the
+extremes of the log function, predicted probabilities are replaced with
+max(min(p,1− 10 −15 ), 10 −15 ) . Submission File You must submit a csv file
+with the image id, all candidate species names, and a probability for each
+species. The order of the rows does not matter. The file must have a header
+and should look like the following:
+id,Acer_Capillipes,Acer_Circinatum,Acer_Mono,... 2,0.1,0.5,0,0.2,...
+5,0,0.3,0,0.4,... 6,0,0,0,0.7,... etc.
+

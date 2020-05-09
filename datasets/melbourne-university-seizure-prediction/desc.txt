@@ -1,0 +1,34 @@
+Epilepsy afflicts nearly 1% of the world's population, and is characterized by
+the occurrence of spontaneous seizures. For many patients, anticonvulsant
+medications can be given at sufficiently high doses to prevent seizures, but
+patients frequently suffer side effects. For 20-40% of patients with epilepsy,
+medications are not effective. Even after surgical removal of epilepsy, many
+patients continue to experience spontaneous seizures. Despite the fact that
+seizures occur infrequently, patients with epilepsy experience persistent
+anxiety due to the possibility of a seizure occurring. Seizure forecasting
+systems have the potential to help patients with epilepsy lead more normal
+lives. In order for electrical brain activity (EEG) based seizure forecasting
+systems to work effectively, computational algorithms must reliably identify
+periods of increased probability of seizure occurrence. If these seizure-
+permissive brain states can be identified, devices designed to warn patients
+of impeding seizures would be possible. Patients could avoid potentially
+dangerous activities like driving or swimming, and medications could be
+administered only when needed to prevent impending seizures, reducing overall
+side effects. The Competition Transitioning from the Kaggle contests held on
+seizure detection and seizure prediction in 2014 that primarily involved long-
+term electrical brain activity recordings from dogs, the current contest
+focuses on seizure prediction using long-term electrical brain activity
+recordings from humans obtained from the world-first clinical trial of the
+implantable NeuroVista Seizure Advisory System. Human brain activity was
+recorded in the form of intracranial EEG (iEEG), which involves electrodes
+positioned on the surface of the cerebral cortex and the recording of
+electrical signals with an ambulatory monitoring system. These are long
+duration recordings, spanning multiple months up to multiple years and
+recording large numbers of seizures in some humans. The challenge is to
+distinguish between ten minute long data clips covering an hour prior to a
+seizure, and ten minute iEEG clips of interictal activity. Acknowledgments
+This competition is sponsored by MathWorks, the National Institutes of Health
+(NINDS), the American Epilepsy Society and the University of Melbourne, and
+organised in partnership with the Alliance for Epilepsy Research, the
+University of Pennsylvania and the Mayo Clinic. References
+

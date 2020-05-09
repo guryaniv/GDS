@@ -1,0 +1,11 @@
+Submissions are evaluated on the root mean squared logarithmic error. The
+RMSLE is calculated as 1 n ∑ i=1 n (log( p i +1)−log( a i +1) ) 2 − − − − − −
+− − − − − − − − − − − − − − − − − − − − √ , where: n is the total number of
+observations p i is your prediction of visitors a i is the actual number of
+visitors log(x) is the natural logarithm of x Submission File For every store
+and date combination in the test set, submission files should contain two
+columns: id and visitors. The id is formed by concatenating the air_store_id
+and visit_date with an underscore. The file should contain a header and have
+the following format: id,visitors air_00a91d42b08b08d9_2017-04-23,0
+air_00a91d42b08b08d9_2017-04-24,0 air_00a91d42b08b08d9_2017-04-25,0 etc.
+
