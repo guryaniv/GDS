@@ -1,7 +1,7 @@
 In this directory we created the recommendation engine itself.
 There are two jupyter notebooks:
-* <a href="https://github.com/TAU-DB/guided-ds/blob/master/Chatbot/Jupyter_Cells_Chatbot_Model.ipynb">Jupyter_Cells_Chatbot_Model</a> - To build and train the seq2seq models
-* <a href="https://github.com/TAU-DB/guided-ds/blob/master/Chatbot/Recommendation_Engine.ipynb">Recommendation_Engine</a> - to use the trained models
+* <a href="https://github.com/guryaniv/GDS/blob/master/Chatbot/Jupyter_Cells_Chatbot_Model.ipynb">Jupyter_Cells_Chatbot_Model</a> - To build and train the seq2seq models
+* <a href="https://github.com/guryaniv/GDS/blob/master/Chatbot/Recommendation_Engine.ipynb">Recommendation_Engine</a> - to use the trained models
 
 The recommendation engine workflow:<br>
 
@@ -21,9 +21,9 @@ The recommendation engine workflow:<br>
 </ol>
 
 The <b>recommendation engine</b> scheme:<br>
-<img src="https://github.com/TAU-DB/guided-ds/blob/master/Documentation/rec_eng.png" alt="recommendation_engine" width="700">
+<img src="https://github.com/guryaniv/GDS/blob/master/Documentation/rec_eng.png" alt="recommendation_engine" width="700">
 
-For more information see <a href="https://github.com/TAU-DB/guided-ds/tree/master/Documentation">Documentation</a>
+For more information see <a href="https://github.com/guryaniv/GDS/tree/master/Documentation">Documentation</a>
 
 
 
